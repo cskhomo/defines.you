@@ -1,20 +1,22 @@
 from json import dump, loads
+from models import Agent
+
 cache = "../data/cache.json"
 
 def main():
     func()
-    pass
 
-
+    
 def store(term):
     with open(cache, "a") as previous_terms:
         dump(term, previous_terms, indent=4)
 
+        
 def check(term):
     with open(cache) as existing_terms:
         existing_terms = loads(existing_terms)
 
-
+        
 def func():
     entries = list()
 
