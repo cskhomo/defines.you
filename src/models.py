@@ -20,21 +20,21 @@ schema = {
   }
 }
 
-class Agent:
-    def getCompletion(self, word: str) -> str | Any:
-        #
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {
-                    'role': 'user',
-                    'content': f'generate the tech definition of: {word}, using this schema: {schema}.'
-                },
-                {
-                    'role': 'assistant',
-                    'content': '```json'
-                }
-                ],
-            stop='```',
-            model = 'llama3-8b-8192'
-        )
-        return chat_completion.choices[0].message.content
+
+def getCompletion(word: str) -> str | Any:
+    #
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {
+                'role': 'user',
+                'content': f'generate the tech definition of: {word}, using this schema: {schema}.'
+            },
+            {
+                'role': 'assistant',
+                'content': '```json'
+            }
+            ],
+        stop='```',
+        model = 'llama3-8b-8192'
+    )
+    return chat_completion.choices[0].message.content

@@ -1,12 +1,10 @@
+
+from models import getCompletion, Agent
+from time import sleep
 from json import dump, dumps, load
-# from models import Agent
 
 cache = "../data/cache.json"
 
-# def main():
-#     func()
-
-    
 def store(term):
     
     with open(cache, "a") as previous_terms, open(cache, "r") as not_empty:    
@@ -75,14 +73,16 @@ def func():
             "Smart Contracts","Software as a Service (SaaS)","Software Defined Networking (SDN)","Soldering","Static Site Generator (SSG)","Synthetic Monitoring","Test-Driven Development (TDD)","Threat Intelligence","Tokenomics","UI/UX Design","User-Centered Design","Virtual Private Cloud (VPC)","Virtual Reality (VR)","Web Development Framework","Webhooks","Wireless Fidelity (Wi-Fi)","Xamarin","Zero-Knowledge Proofs"
         ],        
     }
-    for term in common_terms["01"]:
-        response_data = Agent().getCompletion(term)
-        data = loads(response_data)
-        entries.append(data)
+    failed = list()
+    for collection in common_terms:
+        for term in common_terms[collection]:
+            response_data = getCompletion(term)
+            try:
+                data = loads(response_data)
+                entries.append(data)
+            except:
+                failed.append(term)
+        sleep(60)
     
     with open("../data/common.json", "a") as previous_terms:
         dump(entries, previous_terms, indent=4)
-
-
-# if __name__ == "__main__":
-#     main()

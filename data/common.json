@@ -1,3 +1,1439 @@
+[
+    {
+        "API": {
+            "definition": "An acronym for Application Programming Interface, which is a set of defined rules that enable different applications to communicate with each other and exchange data in a structured and standardized way.",
+            "example": "A social media platform's API allows third-party developers to retrieve user data and create new applications that integrate with the platform."
+        }
+    },
+    {
+        "Agile": {
+            "definition": "A software development methodology that emphasizes flexibility, rapid delivery, and collaboration among cross-functional teams to respond to changing customer needs. It is characterized by iterative and incremental progress, continuous improvement, and early delivery of working software.",
+            "example": "Example of Agile: Developing a minimum viable product (MVP) and iteratively improving it based on customer feedback, rather than following a traditional waterfall approach where the entire product is developed first and then released."
+        }
+    },
+    {
+        "Algorithm": {
+            "definition": "A set of instructions that is used to solve a particular problem or perform a specific task, typically defined for a computer or other electronic device.",
+            "example": "For example, a sorting algorithm might specify a series of steps to sort a list of numbers in a particular order."
+        }
+    },
+    {
+        "Artificial Intelligence": {
+            "definition": "The simulation of intelligent behavior by machines, especially computer systems, that are programmed to think and learn like humans.",
+            "example": "A chatbot that can answer customer queries or a self-driving car that can navigate streets based on learned patterns."
+        }
+    },
+    {
+        "Automation": {
+            "definition": "The use of machines, software, or robots to perform tasks automatically, without human intervention, typically to increase efficiency, productivity, and accuracy.",
+            "example": "An Automated Manufacturing System uses robotic arms to assemble and weld components, reducing labor costs and improving quality control in the production process."
+        }
+    },
+    {
+        "Big Data": {
+            "definition": "A term that refers to the large amounts of structured and unstructured data that are generated and stored digitally, which cannot be processed or managed using traditional data processing techniques due to its volume, velocity, and variety.",
+            "example": "Example: A company that deals with customer feedback can collect a large amount of data from social media platforms, customer surveys, and product reviews. This data is not easily manageable using traditional methods, making it 'Big Data'."
+        }
+    },
+    {
+        "Binary": {
+            "definition": "A binary is a sequence of bits, which are the basic building blocks of computer information. In computing, a binary number is represented by a sequence of 0s and 1s, and is used to represent information such as numbers, text, and images.",
+            "example": "For example, the decimal number 12 in binary notation would be written as 1100"
+        }
+    },
+    {
+        "Blockchain": {
+            "definition": "A decentralized, distributed digital ledger that records transactions and data across multiple computers within a network, making it secure, transparent, and tamper-proof. Each block of data is linked to previous blocks, creating an unalterable and permanent record.",
+            "example": "Example of a blockchain use case: A company uses a blockchain to track and verify supply chain information, such as raw materials, manufacturing, and distribution, to ensure the authenticity and origin of products."
+        }
+    },
+    {
+        "Cloud Computing": {
+            "definition": "A model of delivering computing services over the internet, where resources such as servers, storage, databases, software, and applications are provided as a service to users on-demand, rather than having to manage and maintain the infrastructure themselves.",
+            "example": "Example: A company uses cloud computing to store and process customer data, allowing employees to access the data from anywhere, on any device, and scaling the resources up or down as needed."
+        }
+    },
+    {
+        "Compiler": {
+            "definition": "A compiler is a computer program that translates source code written in a programming language into machine code that can be executed directly by the computer's processor. It takes as input the source code and produces as output an object file that contains the compiled code.",
+            "example": "For example, a C compiler takes C source code as input, and outputs an executable file that can be run directly on the target machine."
+        }
+    },
+    {
+        "Container": {
+            "definition": "A software-based solution that packages and isolates an application and its dependencies, allowing it to run consistently across different computing environments, such as cloud platforms, on-premises environments, and containers orchestration systems.",
+            "example": "A Docker container is a type of container that uses the Docker platform to package and run a single application or service, along with its dependencies, in a self-contained environment."
+        }
+    },
+    {
+        "Continuous Integration": {
+            "definition": "The practice of merging all developer changes into a central repository, performing automated builds and tests, and providing immediate feedback on the success or failure of the build process.",
+            "example": "Example: After each code commit, a CI tool automatically builds the application, runs unit tests and executes integration tests, providing instant feedback to developers and identifying potential bugs or errors."
+        }
+    },
+    {
+        "Data Science": {
+            "definition": "The study and practice of extracting insights and knowledge from large datasets using various techniques such as machine learning, statistics, and data visualization.",
+            "example": "For instance, a market analysis company uses data science to analyze customer purchasing habits and develop targeted marketing campaigns."
+        }
+    },
+    {
+        "Data Mining": {
+            "definition": "The process of automatically discovering patterns, relationships, and insights from large datasets or databases, using various techniques such as machine learning, statistical analysis, and database systems.",
+            "example": "For example, a company might use data mining to analyze customer purchasing habits and identify trends, allowing them to create targeted marketing campaigns and improve customer retention."
+        }
+    },
+    {
+        "Database": {
+            "definition": "A repository of organized data, designed to be easily accessed, managed, and updated. It is a collection of related data stored in a structured format, typically in a digital environment, to support business intelligence, analytics, and decision-making. Databases can be primarily classified into two main categories: relational databases and NoSQL databases.",
+            "example": "For instance, a bank uses a database to store customer information, transaction records, and account balances, allowing staff to access and manipulate the data efficiently. Another example is a social media platform's database, which stores user profiles, posts, comments, and other relevant data."
+        }
+    },
+    {
+        "Deep Learning": {
+            "definition": "A subfield of machine learning that employs artificial neural networks with multiple layers to analyze and interpret data. These networks are designed to mimic the structure and function of the human brain, allowing them to learn and improve over time.",
+            "example": "For example, a self-driving car uses deep learning to recognize and classify images of the road, pedestrians, and traffic signals, enabling it to navigate safely and efficiently."
+        }
+    },
+    {
+        "Deployment": {
+            "definition": "The process of transferring a software application or system from a development environment to a production environment, often involving a series of automated steps to configure, test, and implement the application.",
+            "example": "For example, a company might deploy a new version of their e-commerce website to a live server, which involves updating the database schema, restarting the application server, and reconfiguring routing and security settings."
+        }
+    },
+    {
+        "DevOps": {
+            "definition": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve the speed, quality, and reliability of software releases and deployments. It aims to increase collaboration, automation, and communication between development and operations teams to deliver better software products to end-users.",
+            "example": "For example, a DevOps team may use tools like Git for version control, Jenkins for continuous integration, and Docker for containerization to automate the build, test, and deployment process of a software application."
+        }
+    },
+    {
+        "Docker": {
+            "definition": "Docker is a set of platform-as-a-service (PaaS) solutions that uses operating-system-level virtualization to deliver software in containers. Containers are lightweight and portable, and they provide a consistent and reliable way to deploy applications.",
+            "example": "For example, a developer can create a Docker container for a web application, including the operating system, libraries, and dependencies, and then deploy it to a production environment without worrying about the underlying infrastructure."
+        }
+    },
+    {
+        "Encryption": {
+            "definition": "The process of converting plaintext data into a code, called ciphertext, to prevent unauthorized access, eavesdropping, or tampering.",
+            "example": "For example, when you send a message to a friend through an encrypted messaging app, the message is converted into ciphertext before it is sent, making it unreadable to anyone who intercepts it."
+        }
+    },
+    {
+        "Endpoint": {
+            "definition": "A point of entry or exit in a network, such as a computer, server, or mobile device, where data is transmitted to, received from, or processed. Endpoints can be connected to the network using physical media, such as Ethernet cables, or wireless technologies, such as Wi-Fi or Bluetooth.",
+            "example": "An endpoint can be a user's laptop that is connected to a company's internal network via Wi-Fi, or an internet-connected smart appliance sending data to a cloud-based service."
+        }
+    },
+    {
+        "Framework": {
+            "definition": "A framework is a structured set of rules, principles, or applications that provide a foundation for building something else. It is a pre-defined structure that determines the overall architecture of an application, system, or project, and provides a starting point for development, from which developers can build and extend upon.",
+            "example": "A popular framework for building web applications is React, which provides a library of reusable UI components, a virtual DOM for efficient rendering, and a robust ecosystem of tools and extensions."
+        }
+    },
+    {
+        "Front-End": {
+            "definition": "The user interface (UI) and user experience (UX) layer of a web application, responsible for handling user input, sending requests to the back-end, and receiving and manipulating data to be displayed to the user.",
+            "example": "The front-end of an e-commerce website is the part where users can browse products, add items to their cart, and checkout. It typically involves HTML, CSS, JavaScript, and frameworks such as React, Angular, or Vue.js."
+        }
+    },
+    {
+        "Full Stack": {
+            "definition": "A developer who possesses a broad range of skills and expertise in both front-end and back-end technologies, including programming languages, frameworks, databases, and software development life cycles.",
+            "example": "A full stack developer may work on building a web application's user interface, writing HTML and CSS for the frontend, while also handling data management, authentication, and data storage using technologies such as MySQL, Node.js, and React."
+        }
+    },
+    {
+        "Git": {
+            "definition": "A free and open-source version control system that allows developers to track changes made to their code, collaborate with others, and manage different versions of their project",
+            "example": "A developer uses Git to commit their code changes, push them to a remote repository, and then pull them down to their local machine for testing and debugging."
+        }
+    },
+    {
+        "GitHub": {
+            "definition": "A web-based platform for version control and collaboration on software development projects, allowing users to manage and share code with others.",
+            "example": "A developer uses GitHub to create a repository for their new app, committing code changes and collaborating with other team members on the project."
+        }
+    },
+    {
+        "Graphics Processing Unit (GPU)": {
+            "definition": "A dedicated electronic circuit designed to quickly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. Modern GPUs are used for high-performance computing and are designed to efficiently perform many mathematical calculations, especially matrix operations.",
+            "example": "In gaming, a GPU is responsible for rendering graphics, handling complex calculations, and increasing frame rates to provide a smoother gaming experience."
+        }
+    },
+    {
+        "Internet of Things": {
+            "definition": "A system of interrelated computing devices, mechanical and digital machines, objects, animals, or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. This term is often used to describe the widespread network of physical devices, vehicles, home appliances, and other items embedded with sensors, software, and other technologies for interaction and data exchange with other devices and systems.",
+            "example": "example: A smart thermostat automatically adjusts the temperature in your home based on your location and schedule, communicated with your smartphone through Wi-Fi, 4G, a LAN or the Internet"
+        }
+    },
+    {
+        "Java": {
+            "definition": "A high-level, object-oriented programming language, initially developed by James Gosling at Sun Microsystems (which is now owned by Oracle Corporation).",
+            "example": "Java is often used to develop large-scale applications, including Android apps, web applications, and enterprise software."
+        }
+    },
+    {
+        "JavaScript": {
+            "definition": "A high-level, dynamic, and interpreted programming language used to add interactivity to web pages. It is implemented as part of a web browser or as a standalone application to execute on the server.",
+            "example": "In a web browser, JavaScript is often used to create responsive web pages by adding interactivity, animations, and form validation. For example, a button click event can trigger a JavaScript function to send a request to a server to retrieve data, and then update the page dynamically."
+        }
+    },
+    {
+        "JSON": {
+            "definition": "JavaScript Object Notation is a lightweight, text-based data interchange format. It is a popular method for exchanging and storing data between web servers, web applications, and other devices that use a syntax based on JavaScript's programming language.",
+            "example": "Here is an example of JSON data: {\"name\":\"John\", \"age\":30, \"city\":\"New York\"}"
+        }
+    },
+    {
+        "Kernel": {
+            "definition": "The kernel is the central component of an operating system (OS), responsible for managing computer hardware resources and providing common services to computer programs.",
+            "example": "In a Unix-like system, the kernel is responsible for managing memory, processing, and I/O operations, and provides services such as file I/O, network I/O, and process scheduling to user-space processes."
+        }
+    },
+    {
+        "MachineLearning": {
+            "definition": "A subfield of artificial intelligence (AI) that involves training algorithms to learn from data, recognize patterns, and make predictions or decisions without being explicitly programmed",
+            "example": "For instance, a machine learning algorithm can be trained on a dataset of images to recognize and classify different objects, such as cats and dogs"
+        }
+    },
+    {
+        "Microservices": {
+            "definition": "A software development approach that structures an application as a collection of small, independent services that communicate with each other using language-agnostic APIs",
+            "example": "An e-commerce website using microservices architecture may have separate services for user authentication, inventory management, and payment processing, each written in a different programming language and communicating with each other using APIs."
+        }
+    },
+    {
+        "Node.js": {
+            "definition": "Node.js is a JavaScript runtime environment that allows developers to run JavaScript on the server-side, as well as on the client-side. It is designed for building scalable and high-performance server-side applications, and is often used for web development, real-time data applications, and microservices architecture.",
+            "example": "Example: A web developer uses Node.js to build a real-time chat application that updates in real-time as users send and receive messages. Node.js allows the developer to write JavaScript code that runs on the server, freeing up the need to learn other server-side programming languages."
+        }
+    },
+    {
+        "Open Source": {
+            "definition": "Software that is released under a license that permits users to view, modify, and distribute the software's source code, allowing for collaboration, customization, and reuse.",
+            "example": "Some popular open-source software includes the operating systems Linux and Android, the web browser Firefox, and the office suite LibreOffice."
+        }
+    },
+    {
+        "protocol": {
+            "definition": "A set of rules and conventions that defines how data is transmitted over a network, including the format of the data, the method of transmission, and the way errors are handled.",
+            "example": "Examples of protocols include TCP/IP, HTTP, FTP, and SSH. These protocols define how data is transmitted, received, and interpreted, allowing different devices to communicate with each other."
+        }
+    },
+    {
+        "Python": {
+            "definition": "High-level, interpreted programming language developed by Guido van Rossum and first released in 1991. Python is known for its simplicity, readability, and large standard library, making it a popular choice for beginners and experts alike.",
+            "example": "Example of Python code: `print('Hello, World!')`"
+        }
+    },
+    {
+        "word": {
+            "definition": "A query is a specific piece of code or instruction that is used to extract specific data or information from a database, data storage system, or other digital repository.",
+            "example": "For example, a database query might look like `SELECT * FROM customers WHERE age > 18` to retrieve all customer records where the customer is over 18 years old."
+        }
+    },
+    {
+        "React": {
+            "definition": "A JavaScript library for building user interfaces",
+            "example": "Used in applications like Instagram and Facebook to build dynamic and interactive user interfaces"
+        }
+    },
+    {
+        "Relational Database": {
+            "definition": "A type of database that organizes data into one or more tables, with each table having rows and columns, where each row represents a unique record or entry and each column represents a field or attribute of that record.",
+            "example": "For example, a relational database could store information about customers, with a table for customer information, a table for orders, and a table for products, where each customer is uniquely identified by a customer ID, and each order is associated with a specific customer and product."
+        }
+    },
+    {
+        "Responsive Design": {
+            "definition": "An approach to web development that focuses on creating websites and web applications that adapt to the user's behavior and environment based on screen size, platform, and orientation, providing an optimal user experience across a wide range of devices and browsers. It involves using flexible grids, images, and media queries to ensure that the layout and content of a website adjust proportionally to the display device.",
+            "example": "For example, a responsive design website may adjust its layout to display a navigation menu horizontally on a desktop browser, but vertically on a mobile device, to ensure easy access to the menu regardless of the device."
+        }
+    },
+    {
+        "Serverless": {
+            "definition": "A cloud computing model where the cloud provider manages the infrastructure and dynamically allocates computing resources as needed, eliminating the need for servers or virtual machines, and allowing functions to scale up or down automatically to match demand.",
+            "example": "A small e-commerce website uses a serverless architecture for its payment processing, allowing it to handle sudden spikes in traffic without worrying about provisioning or scaling servers."
+        }
+    },
+    {
+        "Software as a Service": {
+            "definition": "Software as a Service (SaaS) is a software delivery model in which a third-party provider hosts an application or software solution and makes it accessible to customers over the internet. In a SaaS delivery model, the provider is responsible for managing the infrastructure, maintenance, and updates, allowing customers to use the software without installing, configuring, or maintaining it on their own devices or servers.",
+            "example": "Example: A company uses Salesforce, a SaaS-based customer relationship management (CRM) software, to manage its sales and marketing activities. The company does not need to purchase or maintain the underlying infrastructure, and the software is accessible from anywhere, at any time, through a web browser or mobile application."
+        }
+    },
+    {
+        "SQL": {
+            "definition": "Structured Query Language is a programming language designed for managing and manipulating data in relational database management systems (RDBMS).",
+            "example": "SELECT * FROM customers WHERE country='USA';"
+        }
+    },
+    {
+        "Virtual Machine": {
+            "definition": "A virtual machine (VM) is a software emulation of a physical computer or operating system, running on top of a host operating system or another type of machine. It provides a layer of abstraction, allowing multiple operating systems to share the same physical hardware, each with its own dedicated resources and environment.",
+            "example": "For example, a virtual machine running Windows 10 can be created on a computer running macOS or Linux, allowing the user to access and run Windows-based applications without rebooting the host machine."
+        }
+    },
+    {
+        "Version Control": {
+            "definition": "A system that allows multiple developers to collaborate on a project by tracking and managing changes to the project's files, code, and other assets over time.",
+            "example": "Example: Git is a popular version control system used to manage changes to computer code, whereas Subversion (SVN) is another version control system used for managing changes to documents, images, and other files."
+        }
+    },
+    {
+        "Web Development": {
+            "definition": "The process of building and maintaining a website, application, or program that is accessible and viewable over the internet using web technologies such as HTML, CSS, JavaScript, and server-side languages like PHP, Python, or Ruby.",
+            "example": "Web development involves designing and building a website's front-end (client-side) and back-end (server-side), including features like user authentication, data storage, and payment gateways, to create an interactive and engaging user experience."
+        }
+    },
+    {
+        "Web Services": {
+            "definition": "Web services are a way of providing interface between different systems, allowing them to communicate with each other using common protocols and standards. They are a type of software service that is exposed over the internet, allowing different systems to interact and exchange data with each other.",
+            "example": "For example, a company's website may offer a web service that allows customers to make payments online, or a weather service may provide web services that allow other applications to retrieve weather data."
+        }
+    },
+    {
+        "Wireless": {
+            "definition": "Relating to or communicating through the use of radio waves, microwaves, infrared light, or other technologies that do not use wires or physical connections to transmit data or energy.",
+            "example": "Wireless internet allows devices to connect to the internet without the need for cables or physical connections."
+        }
+    },
+    {
+        "XML": {
+            "definition": "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. It is designed to store and transport data in a self-descriptive way, allowing data to be exchanged between different systems and applications in a standardized format.",
+            "example": "Example of an XML document:<books><book><title>The Great Gatsby</title><author>F. Scott Fitzgerald</author><price>14.99</price></book></books>"
+        }
+    },
+    {
+        "Zero-Day": {
+            "definition": "A vulnerability in a software application or system that is unknown to the developers and has not been addressed through any patches or updates until it is exploited by an attacker.",
+            "example": "A malicious actor discovers a zero-day exploit in a popular browser, allowing them to access and steal sensitive user data without being detected by the browser's built-in security measures."
+        }
+    },
+    {
+        "Agile Development": {
+            "definition": "An iterative and incremental software development methodology that prioritizes flexibility, collaboration, and customer satisfaction, focusing on delivering working software in short cycles, often known as sprints, with continuous improvement and adaptation to changing requirements.",
+            "example": "In Agile Development, a development team works closely with stakeholders to identify and prioritize features, and then delivers small, functional pieces of software to customers in each sprint, incorporating feedback and making adjustments as needed."
+        }
+    },
+    {
+        "Cloud Storage": {
+            "definition": "A model of data storage where digital data is stored in logical pools, called clouds, which are managed by third-party service providers, often referred to as cloud storage services. This allows users to access and share files remotely from anywhere with an active internet connection.",
+            "example": "An example of cloud storage is Google Drive, where users can store and access their files online, and also collaborate with others in real-time."
+        }
+    },
+    {
+        "Data Lake": {
+            "definition": "A data lake is a centralized repository that stores all the raw, unprocessed data in its native format, including structured and unstructured data, from various sources, allowing for greater data accessibility, scalability, and analytics capabilities.",
+            "example": "A data lake can be used to store detailed logs from IoT devices, social media posts, emails, CSV files, and XML files, among others, and allow data analysts and scientists to easily access and analyze the data for insights and decision-making."
+        }
+    },
+    {
+        "Data Warehouse": {
+            "definition": "A data warehouse is a centralized repository that stores data from multiple sources in a single location, designed for querying and analyzing data for business intelligence (BI) purposes.",
+            "example": "For example, an e-commerce company might have a data warehouse that combines data from their online store, customer relationship management (CRM) system, and social media platforms to analyze customer behavior and make informed business decisions."
+        }
+    },
+    {
+        "Edge Computing": {
+            "definition": "The processing and analysis of data outside of a traditional centralized cloud or data center, at the edge of the network, closer to where the data is created or consumed.",
+            "example": "For example, predictive maintenance on industrial equipment can be performed using edge computing, by processing sensor data in real-time at the equipment's location, rather than sending it to a central data center for processing."
+        }
+    },
+    {
+        "Firewall": {
+            "definition": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted network (e.g. internal network) and an untrusted network (e.g. internet), blocking or allowing traffic based on criteria such as source and destination IP addresses, ports, and protocols.",
+            "example": "A company sets up a firewall between its internal network and the internet to prevent unauthorized access and limit incoming traffic to only necessary services such as HTTP and SSH."
+        }
+    },
+    {
+        "GraphQL": {
+            "definition": "a query language for APIs, allowing for efficient data retrieval and manipulation by describing the structure of the data and the relationships between data types using a type system and a query language",
+            "example": "/users?query=query { user(id: 1) { name, address } }"
+        }
+    },
+    {
+        "Hashing": {
+            "definition": "Hashing is a one-way process that takes input data of any size and returns a fixed-size string of characters, known as a hash value or digest. This hash value is unique to the input data and cannot be reversed to recover the original data.",
+            "example": "For example, the MD5 hashing algorithm takes a string of any length as input and produces a 32-character string (a hexadecimal number) as the hash value. If the same input string is re-hashed, the same 32-character hash value will be produced."
+        }
+    },
+    {
+        "Hypervisor": {
+            "definition": "A piece of software that creates and manages virtual machines (VMs) on a physical host, allowing multiple operating systems to run on a single physical machine, while providing isolation and resource allocation among the VMs.",
+            "example": "For instance, VMware ESXi is a hypervisor that allows multiple virtual machines to run on a single physical server, each with its own operating system, while the hypervisor manages the underlying resources and provides isolation between the VMs."
+        }
+    },
+    {
+        "Load Balancer": {
+            "definition": "A hardware or software component that distributes network or application traffic across multiple servers to improve responsiveness, reliability, and scalability by reducing the load on individual servers.",
+            "example": "A load balancer can be used to distribute incoming traffic from a web application to a cluster of backend servers, ensuring that no single server is overwhelmed and becomes unavailable."
+        }
+    },
+    {
+        "Message Queue": {
+            "definition": "A software component that enables asynchronous communication by temporarily storing messages until they can be processed by a consumer or subscriber.",
+            "example": "A message queue is used in a web application to handle high volumes of requests by storing them in a queue, allowing the application to respond quickly and efficiently to user requests."
+        }
+    },
+    {
+        "Microcontroller": {
+            "definition": "A small computer on a single integrated circuit (IC) containing a processor, memory, and input/output peripherals. It is a low-power, low-cost embedded system used to control and interact with external devices.",
+            "example": "A microcontroller might be used in an automated lighting system, a refrigerator's temperature control, or a wireless remote control, to name a few examples."
+        }
+    },
+    {
+        "Neural Network": {
+            "definition": "A neural network is a machine learning model inspired by the structure and function of the human brain. It is composed of layers of interconnected 'neurons' or 'nodes' that process and transmit information. Neural networks are trained on large datasets to learn patterns and make predictions, decision-making, or classify inputs.",
+            "example": "For instance, an image recognition system uses a neural network to identify objects in an image. The network is trained on a large dataset of labeled images and learns to recognize patterns in the features of the images, such as shapes, colors, and textures."
+        }
+    },
+    {
+        "NoSQL": {
+            "definition": "A type of database that does not use the traditional table-based relational model used in relational databases such as relational databases like MySQL, but instead uses a variety of methods to store and manage data, such as key-value, document, graph, and column-family stores",
+            "example": "In a NoSQL database, data is typically stored in a flexible, semi-structured schema, allowing for easy adaptation to changing requirements, such as a social media platform storing user data and posts in a key-value store"
+        }
+    },
+    {
+        "OAuth": {
+            "definition": "An authentication protocol that authorizes users to access web resources without sharing their login credentials.",
+            "example": "For example, when a user wants to grant access to their Twitter account to a third-party app, they are presented with a prompt to authenticate and authorize the app to access their Twitter data."
+        }
+    },
+    {
+        "ORM": {
+            "definition": "Object-Relational Mapping is a technique used to interact with relational databases using object-oriented programming language. It allows developers to access and manipulate data in a database using objects, rather than dealing with raw SQL queries.",
+            "example": "For example, in a web application, an ORM could be used to interact with a MySQL database, allowing developers to create, read, update, and delete data using objects, such as a User class, rather than writing raw SQL queries."
+        }
+    },
+    {
+        "PacketSwitching": {
+            "definition": "A method of transmitting data in computer networks where data is broken into small packets and each packet is independently routed across the network to its destination, allowing multiple devices to share the same network infrastructure and increasing network efficiency and reliability.",
+            "example": "In a packet-switched network, a file is broken into small packets and each packet is given a header containing information such as the source and destination IP addresses, packet sequence number, and checksum. The packets are then routed independently through the network to the destination, where they are reassembled into the original file."
+        }
+    },
+    {
+        "Pipeline": {
+            "definition": "A sequence of processes or events that work together to achieve a specific goal or outcome, typically used to describe a workflow or production process in fields such as software development, manufacturing, or engineering.",
+            "example": "In software development, a pipeline refers to the steps involved in building and testing a software program, from coding to deployment."
+        }
+    },
+    {
+        "Platform as a Service (PaaS)": {
+            "definition": "A cloud computing model in which a third-party provider delivers a complete, end-to-end platform for developing, running, and managing applications. A PaaS provider supplies a multi-tenant environment for users to deploy and manage their applications, including tools for development, deployment, and scaling, as well as databases, storage, and other resources.",
+            "example": "For example, a PaaS provider might offer a development environment with a database, a web server, and an application server, allowing users to build and deploy their applications without worrying about the underlying infrastructure."
+        }
+    },
+    {
+        "Proxy": {
+            "definition": "A proxy is a simple indirect interface to a larger complex system, which it controls or extends in some way. This is done to increase accessibility, scalability, and manageability. It can act as a gateway to the system, controlling access to it and performing some actions on behalf of other components.",
+            "example": "A web browser can act as a proxy to a website, caching frequently accessed pages to speed up page loads. In the Linux world, `apt-proxies` can be used to cache and manage package installations."
+        }
+    },
+    {
+        "Public Key Infrastructure (PKI)": {
+            "definition": "A system that enables the secure distribution, management, and use of public keys and digital certificates for authentication, encryption, and digital signature purposes. A PKI typically consists of a hierarchy of trusted authorities, certification authorities, and registration authorities, which work together to issue, manage, and revoke digital certificates.",
+            "example": "A PKI is often used in online transactions to secure communication between a web browser and a web server. For example, when you access a secure website (HTTPS), your browser uses the PKI to verify the authenticity of the website and establish a secure connection."
+        }
+    },
+    {
+        "Refactoring": {
+            "definition": "The process of restructuring existing computer code without changing its external behavior, in order to improve its internal structure, organization, and maintainability.",
+            "example": "For example, refactoring a complex algorithm to break it down into smaller, more manageable functions, or renaming variables to make their purpose clearer."
+        }
+    },
+    {
+        "Robotics": {
+            "definition": "The branch of technology that deals with the design, construction, operation, and use of robots, as well as computer systems for their control, sensory feedback, and information exchange.",
+            "example": "Example of Robotics in action: A robotic arm is used in a manufacturing plant to assemble and inspect electronic components with high precision and speed."
+        }
+    },
+    {
+        "Scalability": {
+            "definition": "The ability of a system, network, or process to handle increased load, traffic, or demand by scaling up or out, without a significant decrease in performance or responsiveness.",
+            "example": "A cloud-based e-commerce platform that can handle a sudden surge in online sales during a holiday season by automatically scaling up its servers and resources to ensure users can continue to access and shop from the platform without delays or errors."
+        }
+    },
+    {
+        "Script": {
+            "definition": "A set of instructions written in a programming language that a computer can execute, typically stored in a file and consisting of a sequence of commands, statements, and expressions.",
+            "example": "A script in Python might look like this: `print('Hello, world!')` - it tells the computer to print the string 'Hello, world!' to the screen."
+        }
+    },
+    {
+        "SDK": {
+            "definition": "A Software Development Kit (SDK) is a collection of tools, libraries, documentation, and sample code that allows developers to build, test, and debug software applications.",
+            "example": "The SDK provides a set of APIs and libraries that allow developers to access and utilize the functionality of a software or hardware platform, such as a mobile device or a web server."
+        }
+    },
+    {
+        "SEO": {
+            "definition": "Search Engine Optimization, the process of improving the visibility and ranking of a website in search engine results pages (SERPs) through various techniques, including keyword research, link building, content optimization, and technical optimization.",
+            "example": "By implementing proper SEO strategies, Company X increased its website traffic by 30% and boosted its online sales by 25% within six months."
+        }
+    },
+    {
+        "Server-Side": {
+            "definition": "Refers to the part of a web application or service where the logic is executed on a server, as opposed to the client-side, where the logic is executed in a web browser. Server-side processing typically involves handling requests and responses, performing calculations, and storing or retrieving data in a database.",
+            "example": "An e-commerce website might use server-side rendering to generate a customized product page based on user input, rather than simply displaying a template client-side."
+        }
+    },
+    {
+        "Software Development Kit": {
+            "definition": "A collection of tools, libraries, documentation, and sample code that allows developers to create applications that run on a specific platform or with a specific programming language, providing a standard interface for building software compatible with the platform or language. It typically includes firmware, drivers, and other essential components necessary for developing applications.",
+            "example": "For instance, the Android Software Development Kit (SDK) provides a set of tools and libraries for building Android apps, including Java or Kotlin programming languages, Android Debug Bridge (ADB), and Android Emulator, to name a few."
+        }
+    },
+    {
+        "Structured Query Language": {
+            "definition": "A programming language designed for managing and manipulating data stored in relational database management systems (RDBMS). It is used to perform various operations such as creating, modifying, and querying databases.",
+            "example": "Example SQL query: SELECT * FROM customers WHERE country='USA'"
+        }
+    },
+    {
+        "Test Automation": {
+            "definition": "The use of software tools to execute pre-scripted tests on a computer program, reducing the need for manual testing and increasing testing efficiency and effectiveness.",
+            "example": "For example, a company can use test automation tools to automatically test its new mobile app for bugs and issues, reducing the time and effort required for manual testing."
+        }
+    },
+    {
+        "Unit Testing": {
+            "definition": "The process of writing and executing test cases for individual units of source code, such as functions or methods, to ensure they behave as expected and are fault-free.",
+            "example": "For example, a developer might write a test for a simple arithmetic function like `add(a, b)` to ensure it returns the correct result, and runs this test independently of the rest of the codebase."
+        }
+    },
+    {
+        "User Interface": {
+            "definition": "The point of interaction between a user and a system, including hardware and software components, through which users can interact with a product, service, or platform, typically characterized by visual, auditory and interactive elements such as buttons, menus, icons, and graphics.",
+            "example": "A smartphone's touch screen is an example of a User Interface, allowing users to navigate through apps, make calls, and send messages."
+        }
+    },
+    {
+        "User Experience": {
+            "definition": "The process of creating products, systems, or services that are accessible, usable, and enjoyable by users. It involves understanding and designing the interactions between humans and technology to create an experience that is intuitive, efficient, and satisfying.",
+            "example": "For instance, a well-designed e-commerce website would prioritize user experience by providing easy navigation, clear and concise product information, and a secure checkout process, ultimately resulting in a positive and convenient shopping experience for the user."
+        }
+    },
+    {
+        "Virtualization": {
+            "definition": "The creation of a virtual version of a physical entity or system, such as a virtual machine, virtual network, or virtual storage, that emulates the behavior and functionality of its physical counterpart.",
+            "example": "For example, a company can use virtualization to create multiple virtual machines on a single physical server, allowing multiple operating systems to run concurrently on the same hardware."
+        }
+    },
+    {
+        "WebSocket": {
+            "definition": "A protocol that provides bidirectional, low-latency, and real-time communication between a client (typically a web browser) and a server. It allows a server to push updates to a connected client over a TCP connection, enabling real-time communication and bi-directional data exchange.",
+            "example": "In a real-time chat application, a WebSocket connection can be established between a client and server, allowing the server to push new messages to the client as they become available, and the client to send messages back to the server in real-time."
+        }
+    },
+    {
+        "Wi-Fi": {
+            "definition": "A technology that allows electronic devices to connect to the internet or communicate with each other using radio waves, without the use of cables or wires.",
+            "example": "Imagine using your smartphone to access the internet while sitting in a park, without needing to be connected to a cable. This is made possible by Wi-Fi."
+        }
+    },
+    {
+        "Wireless Access Point": {
+            "definition": "A device that allows wireless-enabled devices to connect to a wired or wireless network through wireless communication signals, typically using radio waves or infrared signals.",
+            "example": "A Wireless Access Point (WAP) installed in a coffee shop allows customers to connect their laptops and mobile devices to the internet using Wi-Fi."
+        }
+    },
+    {
+        "Versioning": {
+            "definition": "The practice of assigning a unique version number to a software application, data file, or document to track changes, updates, and revisions.",
+            "example": "For example, a software version might be denoted as 'v1.2.3' to indicate the third revision of the second major update of the first release."
+        }
+    },
+    {
+        "Artificial Neural Network (ANN)": {
+            "definition": "A computational system inspired by the structure and function of the human brain, composed of interconnected nodes or 'neurons' that process and transmit information through complex patterns of activation.",
+            "example": "A deep learning model trained on facial recognition data uses an artificial neural network to identify and analyze the features of a given image, outputting a probability score for matching a specific individual."
+        }
+    },
+    {
+        "Back-End": {
+            "definition": "The part of a web application or system that performs the data processing, storage, and retrieval, and often exposes APIs for other systems or applications to interact with it. It is typically implemented using server-side programming languages and frameworks.",
+            "example": "The back-end of a web application responsible for handling user authentication and data storage may be built using a programming language like Node.js and a framework like Express.js, using a database like MySQL or MongoDB."
+        }
+    },
+    [
+        {
+            "word": "Bit",
+            "definition": "A bit is the basic unit of information in computing and telecommunications, representing a single binary value (0 or 1).",
+            "example": "A byte is composed of 8 bits, where each bit can be either 0 or 1."
+        }
+    ],
+    {
+        "Bootstrap": {
+            "definition": "A front-end framework for building websites and web applications, written in HTML, CSS, and JavaScript. It consists of a set of pre-built CSS and HTML components that can be used to quickly create responsive and mobile-friendly interfaces.",
+            "example": "Using Bootstrap, a developer can create a web application with a responsive navigation menu, a grid layout, and various UI components, such as buttons, forms, and alerts, without having to write custom CSS and HTML code."
+        }
+    },
+    {
+        "Cloud Native": {
+            "definition": "A software system designed from the ground up to be scalable, adaptable, and resilient in a cloud computing environment. It is optimized for cloud deployment and takes advantage of cloud-native features such as serverless compute, containers, and distributed databases.",
+            "example": "A cloud-native e-commerce platform uses serverless functions to handle product recommendations, containerized services for product inventory management, and a distributed database for handling a large volume of user data."
+        }
+    },
+    {
+        "Cloud Security": {
+            "definition": "A set of policies, technologies, and controls designed to protect cloud-based assets, data, and applications from unauthorized access, use, disclosure, modification, or destruction, including protection against internal and external threats, data breaches, and compliance with regulatory requirements.",
+            "example": "A cloud provider implementing encryption at rest and in transit, firewalls, access controls, and intrusion detection systems to ensure the security of customer data stored in its cloud storage solution."
+        }
+    },
+    {
+        "Codebase": {
+            "definition": "A codebase refers to the collection of all the source code files, libraries, and other software components that make up a specific software application, system, or set of systems.",
+            "example": "For example, a company's proprietary mobile app might have a codebase consisting of multiple languages, such as Java for the Android platform and Swift for the iOS platform, along with various libraries and frameworks used to build the app."
+        }
+    },
+    {
+        "Continuous Deployment": {
+            "definition": "The practice of having automated processes in place to deploy software code changes to production environments as soon as they are approved, without the need for manual intervention.",
+            "example": "Example: After testing and reviewing, a development team uses automated scripts to deploy a new version of their web application to a production server, making the changes available to users immediately."
+        }
+    },
+    {
+        "Containerization": {
+            "definition": "A software architecture pattern in which an application is packaged with its dependencies into a single, executable unit called a container, which can be run consistently across different environments",
+            "example": "A web application uses Docker containerization to package the application code, dependencies, and runtime environment into a single container that can be easily deployed across different cloud providers and environments"
+        }
+    },
+    {
+        "Data Modeling": {
+            "definition": "The process of creating a conceptual representation of data structures, including entities, attributes, and relationships, to organize and manage data in a database, data warehouse, or other data storage systems.",
+            "example": "A data model is created to design a database schema for an e-commerce platform, including entities such as customers, orders, and products, with attributes like customer name, order date, and product price, and relationships like one-to-many between customers and orders."
+        }
+    },
+    {
+        "Data Synchronization": {
+            "definition": "The process of ensuring that multiple copies of data remain up-to-date and consistent with each other, typically across multiple devices or systems, to prevent data discrepancies and inconsistencies.",
+            "example": "For example, when working on a document collaboratively with colleagues, data synchronization ensures that every device and platform accessing the document reflects the same version of the document, eliminating confusion and errors."
+        }
+    },
+    {
+        "Data Validation": {
+            "definition": "The process of verifying and controlling the accuracy, completeness, and consistency of data entered into a system, such as a database or a digital form, to ensure it conforms to a set of predetermined rules, formats, or patterns.",
+            "example": "For instance, data validation may be used to check if a user's input email address is in the correct format (e.g., it has('@' symbol) before allowing them to submit a form."
+        }
+    },
+    {
+        "Database Management System": {
+            "definition": "A software system that allows for the definition, creation, querying, updating and administration of databases. It acts as an intermediary between the user and the physical database, providing mechanisms for storing, manipulating, and retrieving data in the database.",
+            "example": "For instance, MySQL, PostgreSQL, and Microsoft SQL Server are all examples of DBMSs that allow users to interact with relational databases."
+        }
+    },
+    {
+        "Distributed System": {
+            "definition": "A distributed system is a software system that is composed of multiple, autonomous components that communicate with each other to achieve a common goal. The components can be distributed across multiple machines, networks, or even geographically dispersed sites, and can be executed on different nodes or devices.",
+            "example": "A social media platform that uses a distributed system to manage user data and posts across multiple databases and servers, allowing it to scale and perform efficiently even with a large number of users."
+        }
+    },
+    {
+        "ETL": {
+            "definition": "Extract, Transform, Load (ETL) refers to a process in data integration where data is extracted from a source system, transformed or processed to conform to a target system's requirements, and then loaded into the target system.",
+            "example": "For example, an ETL process might extract customer data from a relational database, transform the data into a suitable format for analysis, and then load the data into a data warehouse."
+        }
+    },
+    {
+        "Firmware": {
+            "definition": "A type of software that is embedded in a hardware device and is used to configure and control the device's operation.",
+            "example": "The firmware in a smartphone's microcontroller is responsible for controlling the phone's keypad, touchscreen, and other sensors."
+        }
+    },
+    {
+        "Graph Database": {
+            "definition": "A Graph Database is a type of NoSQL database designed to store and manage large amounts of graph-structured data. It is optimized for handling complex relationships and connections between entities, allowing for efficient querying and analysis of graph data.",
+            "example": "For example, a social media platform's user friendship network can be stored in a graph database, where users are represented as nodes and their friendships are represented as edges. This allows for efficient querying and analysis of the network, such as finding all users who are friends with a specific user."
+        }
+    },
+    {
+        "Hardware as a Service (HaaS)": {
+            "definition": "A business model where a company provides and manages hardware devices, such as servers, storage, and networking equipment, to customers in exchange for a recurring subscription fee. In a HaaS model, the hardware is owned and maintained by the provider, and the customer has access to the devices as needed.",
+            "example": "A company provides a HaaS solution that offers high-performance servers and storage solutions to businesses, allowing them to scale their computing infrastructure without the need for upfront capital expenditures."
+        }
+    },
+    {
+        "Hyperledger": {
+            "definition": "A collaborative effort created by The Linux Foundation to advance blockchain technology, focusing on developing open-source blockchain frameworks and tools that enable secure, scalable, and reliable decentralized systems. Hyperledger provides a broadly accepted set of blockchain standards, protocols, and tools for building enterprise-grade blockchain applications, and supports various use cases such as supply chain management, identity verification, and financial transactions.",
+            "example": "For instance, Hyperledger Fabric is a popular blockchain platform developed by Hyperledger, which allows organizations to build, deploy, and scale blockchain-based solutions for a variety of industries and use cases."
+        }
+    },
+    {
+        "Internet Protocol": {
+            "definition": "A fundamental communication protocol of the internet, responsible for addressing and routing data packets between devices and networks. It enables communication between devices with different network technologies and provides a universal addressing system for devices on the internet.",
+            "example": "IP addresses are typically written in dotted decimal notation, such as 192.0.2.1 or 2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+        }
+    },
+    {
+        "Key Performance Indicator": {
+            "definition": "A measurable value that demonstrates how effectively an organization is achieving its objectives. KPIs are used to evaluate the success of an organization, team, or individual in terms of specific performance metrics, such as sales growth, customer satisfaction, or product quality.",
+            "example": "Examples of KPIs might include: revenue growth rate, customer retention rate, website conversion rate, or average handling time for customer service requests."
+        }
+    },
+    {
+        "Latency": {
+            "definition": "The time delay between the sending of a request and the receiving of a response, usually measured in milliseconds. It is a critical factor in determining the performance and responsiveness of networked applications, as it can affect the speed and reliability of data transmission.",
+            "example": "For example, if a web page takes 200 milliseconds to load, the latency is 200 milliseconds. This means that it took 200 milliseconds for the user's browser to receive the requested data from the web server after sending the request."
+        }
+    },
+    {
+        "Load Testing": {
+            "definition": "The process of applying a series of artificial loadings on a system, typically a web application, in order to determine its stability and performance under different workload scenarios.",
+            "example": "For example, a web developer may use a load testing tool to simulate 1000 concurrent users accessing a website, to test its ability to handle a large volume of traffic and to identify performance bottlenecks."
+        }
+    },
+    {
+        "Machine Vision": {
+            "definition": "The use of digital imaging sensors and software to capture and process visual data from a machine or device, allowing for automated inspection, measurement, and decision-making.",
+            "example": "A machine vision system uses a high-resolution camera to inspect the quality of a product on a production line, and instantly detects defects or anomalies, allowing for faster and more accurate quality control."
+        }
+    },
+    {
+        "Microservice": {
+            "definition": "A software architecture pattern where a large application is broken down into a collection of small, independent services, each running its own process and communicating with others using lightweight protocols, to enable scalability, flexibility, and fault tolerance.",
+            "example": "For instance, a e-commerce platform might be composed of multiple microservices: one for order processing, one for payment processing, one for inventory management, and so on."
+        }
+    },
+    {
+        "Middleware": {
+            "definition": "Software that connects multiple applications or software components, acting as a bridge between them, and provides a layer of abstraction, transforming the data and communication between them.",
+            "example": "In a web application, a middleware can be used as a filter to check and validate user input before passing it to the business logic layer."
+        }
+    },
+    {
+        "MVC": {
+            "definition": "A software architectural pattern that separates an application into three interconnected components: Model, View, and Controller. The Model represents the data and business logic, the View is responsible for rendering the user interface, and the Controller handles user input and requests by interacting with the Model and View.",
+            "example": "For example, in an e-commerce website, the Model could handle the database operations for products, the View could render the product list on the page, and the Controller could handle the filtering and sorting of products based on user input, interacting between the Model and View to update the product list dynamically."
+        }
+    },
+    {
+        "Natural Language Processing": {
+            "definition": "Natural Language Processing (NLP) is a subfield of artificial intelligence (AI) that deals with the interaction between computers and human language. It involves the development of algorithms and statistical models that enable computers to process, understand, and generate natural language data, such as text or speech.",
+            "example": "For example, an NLP system can be trained to recognize and classify spoken language, perform sentiment analysis on text, or generate text summaries of documents."
+        }
+    },
+    {
+        "Object-Oriented Programming (OOP)": {
+            "definition": "A programming paradigm that organizes software design around objects and the interactions between them.",
+            "example": "For example, in a game, a player character could be an object, with attributes like name, health, and strength, and methods like shoot() and move()."
+        }
+    },
+    {
+        "PairProgramming": {
+            "definition": "A software development technique in which two programmers work together on the same code, one writing code and the other reviewing and testing it in real-time, simultaneously.",
+            "example": "For example, in pair programming, one programmer, the 'driver', writes code while the other programmer, the 'navigator', reviews and provides feedback in real-time, ensuring high-quality code and reducing bugs."
+        }
+    },
+    {
+        "Penetration Testing": {
+            "definition": "A simulated cyber attack against a computer system, network, or web application to assess its security vulnerabilities and identify weaknesses, in order to improve its defenses and protect against real-world attacks.",
+            "example": "During the penetration testing of a company's network, a tester might attempt to crack weak passwords, exploit vulnerabilities in software or firmware, or manipulate a system's configuration to gain unauthorized access, and then report their findings and recommendations to the organization."
+        }
+    },
+    {
+        "Public Cloud": {
+            "definition": "A public cloud is a model of cloud computing where a third-party provider delivers computing resources, such as servers, storage, and applications, over the internet. The cloud infrastructure is provisioned in a multi-tenant environment, and resources are scalable and on-demand. Public clouds are open to the general public and charge customers based on their utilization of the resources.",
+            "example": "Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) are well-known examples of public clouds."
+        }
+    },
+    {
+        "Quality Assurance": {
+            "definition": "A systematic process that ensures a product or service meets specified requirements, standards, and regulatory guidelines, conducted by a third-party organization or an internal team, to detect and correct defects, and identify opportunities for improvement.",
+            "example": "The software development company conducts rigorous Quality Assurance testing to ensure its new mobile app meets the required security and performance standards before releasing it to the market."
+        }
+    },
+    {
+        "Queue": {
+            "definition": "A data structure that stores elements in a First-In-First-Out (FIFO) manner, where elements are added to the end of the queue and removed from the front.",
+            "example": "In a messaging system, a queue is used to hold incoming messages until they are processed by the server, ensuring that messages are processed in the order they were received."
+        }
+    },
+    {
+        "React Native": {
+            "definition": "A framework for building native mobile applications using React and JavaScript. It allows developers to use React to create UI components and then compile them to native platform-specific code (such as iOS or Android) using JavaScript and other languages.",
+            "example": "For example, a developer can build a React Native app for iOS and Android using JavaScript, and then deploy it to the App Store and Google Play Store."
+        }
+    },
+    {
+        "Regression Testing": {
+            "definition": "The process of testing the modified software or application to ensure that the recent changes have not introduced any errors or bugs that affect the existing functionality, and to verify that it still works as expected.",
+            "example": "After a new feature was added to an e-commerce website, the testers performed regression testing to verify that the existing payment gateway, product categories, and search functionality still worked properly after the update."
+        }
+    },
+    {
+        "Relational Model": {
+            "definition": "A concept in database design that organizes data into one or more tables with columns and rows, where each row represents a single record or instance, and each column represents a field or attribute of that record.",
+            "example": "For example, a relational database might have a table called 'Customers' with columns for 'CustomerID', 'Name', and 'Address', and another table called 'Orders' with columns for 'OrderID', 'CustomerID', and 'OrderDate'."
+        }
+    },
+    {
+        "Server": {
+            "definition": "The server architecture refers to the design and organization of the server-side infrastructure, including hardware, software, and networking components, which work together to provide a framework for hosting and delivering services, applications, and data to clients over a network.",
+            "example": "A cloud-based e-commerce platform, for instance, would typically consist of a server architecture that includes multiple servers for hosting the website, database servers for storing customer data, load balancers for distributing traffic, and application servers for processing transactions."
+        }
+    },
+    {
+        "Software Engineering": {
+            "definition": "The application of engineering principles and techniques to the design, development, testing, and maintenance of software systems, with a focus on creating efficient, safe, and reliable software that meets the needs of users.",
+            "example": "For example, a software engineer would use design patterns, algorithms, and data structures to develop a mobile app, and ensure that it is user-friendly, stable, and scalable, by following best practices and coding standards."
+        }
+    },
+    {
+        "SoftwareLifecycle": {
+            "definition": "The series of stages involved in developing and maintaining software, from its initial conceptualization to its final deployment, including planning, design, testing, implementation, integration, maintenance, and updates.",
+            "example": "The software lifecycle for a mobile app might involve the following stages: planning, designing the user interface, coding the app, testing the app, deploying the app to the app store, and subsequent updates and maintenance to fix bugs and add new features."
+        }
+    },
+    {
+        "Software_Project_Management": {
+            "definition": "The application of knowledge, skills, tools, and techniques to plan, organize, monitor and control software development projects, aiming to achieve specific goals and deliverables on time, within budget, and to the required quality standards.",
+            "example": "A software development company uses software project management to oversee the creation of a new mobile application, defining project scope, identifying and mitigating risks, tracking progress, and ensuring stakeholders are informed throughout the development process."
+        }
+    },
+    {
+        "Software Testing": {
+            "definition": "The process of evaluating a software application or system to identify bugs, defects, or missing requirements, in order to ensure it meets the specified requirements and works as expected, and to deliver a high-quality software product.",
+            "example": "During the testing phase of a new mobile app, testers may use various testing techniques, such as black box testing, white box testing, or gray box testing, to identify and report bugs, and verify that the app meets the specified requirements."
+        }
+    },
+    {
+        "Software Versioning": {
+            "definition": "The process of assigning a unique identifier or number to a software product to track changes, updates, and revisions, ensuring that different versions of the software can be distinguished from one another and versions can be referenced and targeted for updates or maintenance.",
+            "example": "For instance, a software company might use 'v1.0' for the initial release of their application, 'v1.1' for a bug fix release, 'v2.0' for a major update, and so on."
+        }
+    },
+    {
+        "SQL Injection": {
+            "definition": "A web application security vulnerability that allows an attacker to inject Structured Query Language (SQL) code into a web application's database, allowing them to extract or modify sensitive data.",
+            "example": "For example, an attacker might inject the following SQL code into a login page's username field: ` OR 1=1 --`, which would allow them to bypass authentication and access the database."
+        }
+    },
+    {
+        "Stateful": {
+            "definition": "In computer science, stateful refers to a system or program that maintains some information or context about previous interactions, computations, or events, which affects its current behavior or output. This means that the state of the system changes over time, influencing its subsequent actions.",
+            "example": "A web browser is a stateful program because it remembers the URLs you've visited previously, allowing you to click on the back button and revisit previous pages. In contrast, a stateless program would not retain any information about previous interactions."
+        }
+    },
+    {
+        "StatefulSet": {
+            "definition": "A StatefulSet is an abstraction over Kubernetes pods that can scale to create a specific number of replicas and provide ordered creation.",
+            "example": "A StatefulSet is useful when you need to ensure that multiple pods are created in a specific order, such as in a database cluster where the first node must be created before the second node."
+        }
+    },
+    {
+        "Server Cluster": {
+            "definition": "A group of multiple servers that work together as a single system, providing scalability, redundancy, and high availability for a specific application or service.",
+            "example": "A server cluster can be set up to host a website, where multiple web servers are connected to a load balancer, ensuring that if one server becomes unavailable, another can take its place to maintain uptime."
+        }
+    },
+    {
+        "Server Farm": {
+            "definition": "A large collection of servers, often housed in a single location, such as a data center or a small room, that are connected and managed by a network and are used to provide services, store data, and process tasks. Server farms are often used in high-traffic web applications, cloud computing, and other environments where high availability and scalability are required.",
+            "example": "The company's server farm consisted of thousands of servers that were clustered together to provide load balancing, caching, and backup services for its e-commerce website."
+        }
+    },
+    {
+        "Server-Side Rendering (SSR)": {
+            "definition": "A software development technique where the server renders the initial HTML of a web application instead of the client's web browser. This allows for faster initial page loads, improved SEO, and more control over the rendering process.",
+            "example": "When a user requests a webpage, the server-side rendering (SSR) approach would generate the HTML of the page, including dynamic content, and send it directly to the user's browser, rather than sending a static HTML file. This approach allows the server to handle complex computations and database queries before sending the HTML to the client, resulting in a faster and more responsive user experience."
+        }
+    },
+    {
+        "Static": {
+            "Analysis": {
+                "definition": "The process of analyzing code without actually executing it to identify potential issues, errors, or security vulnerabilities. This includes techniques such as parsing, lexical analysis, semantic analysis, and data flow analysis to analyze the code structure, syntax, and behavior, and to flag potential problems before runtime.",
+                "example": "A static analysis tool might alert a developer to the possibility of a undefined variable being used in a part of the code that hasn't been reached yet, preventing a runtime error from occurring."
+            }
+        }
+    },
+    {
+        "Technical Debt": {
+            "definition": "A metaphorical debt that refers to the additional time, effort, and resources required to maintain and evolve a software system or architecture, resulting from imperfect or incomplete design choices, rushed or incomplete coding, or neglected maintenance, which can impact the system's maintainability, scalability, and performance.",
+            "example": "For instance, taking shortcuts in coding, using technical workarounds, or deferring necessary improvements to a system can lead to technical debt. This investment in immediate functionality may pay off in the short term, but it will result in higher maintenance costs and more complex fixes in the long run."
+        }
+    },
+    {
+        "Tokenization": {
+            "definition": "The process of breaking down a string of text into a sequence of smaller and more manageable units, known as tokens, which can then be analyzed, processed, or searched individually.",
+            "example": "For example, tokenizing a sentence like 'Hello World!' might produce tokens like ['Hello', 'World', '!']"
+        }
+    },
+    {
+        "Unit Test": {
+            "definition": "A small-scale testing of a single unit of code, typically a function, method, or module, to verify its correctness and functionality",
+            "example": "For example, testing a software function that calculates the sum of two numbers would involve feeding it test inputs and verifying that the output matches the expected result, such as passing in 2 and 3 and getting back 5"
+        }
+    },
+    {
+        "UserAuthentication": {
+            "definition": "The process of verifying the identity of a user by using techniques such as username and password, biometric data, or tokens to ensure the user is who they claim to be and grant them access to a system, application, or network.",
+            "example": "During the login process, a user enters their username and password, which are then checked against the stored credentials. If the credentials match, the user is authenticated and granted access to the system."
+        }
+    },
+    {
+        "Access Control": {
+            "definition": "The process of granting or denying digital requests to access computer-based resources, programs, and systems. It involves verifying the identity of users, authenticating their credentials, and authorizing their requests to ensure the security and integrity of the system.",
+            "example": "Examples of access control include password-protected login systems, biometric authentication, and role-based access control."
+        },
+        "User Authorization": {
+            "definition": "The process of verifying whether a user has the necessary permissions, rights, or privileges to access a specific resource, system, or data. It involves checking the user's identity, authentication, and access control list to determine whether they have the authority to view, modify, or delete the requested data.",
+            "example": "For example, a web application may require user authorization to access a user's personal data, where only authorized users with a specific role can access the data."
+        }
+    },
+    {
+        "VPN": {
+            "definition": "A Virtual Private Network is a private network that uses public internet infrastructure to connect remote sites or users together through secure and encrypted tunnels.",
+            "example": "A user connects to a VPN while working remotely to ensure secure access to the company's network and protect their device from unauthorized access."
+        }
+    },
+    {
+        "Web API": {
+            "definition": "A web application programming interface (API) is a set of defined rules that enables different applications to communicate with each other over the internet. It allows online applications to talk to each other and exchange data, using standard protocols, formats, and mechanisms.",
+            "example": "An example of a web API is the Twitter API, which allows developers to access and retrieve data from Twitter's database, enable users to post tweets, and integrate Twitter functionality into their own applications."
+        }
+    },
+    {
+        "Web Assembly": {
+            "definition": "A binary instruction format that allows developers to compile code written in languages like C, C++, and Rust into a portable, compact format that can be run directly in web browsers or other environments that support WebAssembly, without the need for a traditional JavaScript VM or interpreter.",
+            "example": "For example, a WebAssembly module can be compiled from C++ code and then run directly in a web browser, without the need for a JavaScript runtime or interpreter."
+        }
+    },
+    {
+        "Web Scraping": {
+            "definition": "The process of automatically extracting data from websites or web pages without direct access to the underlying databases or files, using technologies such as HTML parsers and JavaScript rendering mechanisms.",
+            "example": "A web scraping tool might extract specific data points, such as prices or product information, from online marketplaces like Amazon or eBay, and store them in a database for later analysis or use."
+        }
+    },
+    {
+        "WebSocket API": {
+            "definition": "The WebSocket API is a bi-directional communication technology that allows a web page to establish a real-time, two-way communication channel with a server, enabling efficient and scalable communication between the client and the server. It allows for sending and receiving data messages, as well as text-based or binary messages, over a single connection.",
+            "example": "A real-time chat application that uses the WebSocket API to send and receive messages between users, allowing for an instant, interactive conversation experience."
+        }
+    },
+    {
+        "Wireframe": {
+            "definition": "A low-fidelity visual representation of a user interface, typically created using lines, boxes, and symbols, that shows the basic layout and structure of a digital product, such as a website or mobile app, without the use of graphical elements, colors or detailed designs.",
+            "example": "A wireframe of a mobile app could consist of a series of rectangles and lines that represent the app's layout, including the placement of buttons, text fields, and other UI elements."
+        }
+    },
+    {
+        "World Wide Web": {
+            "definition": "A system of interlinked hypertext documents, commonly referred to as websites, that can be accessed via the Internet. It is a network of interconnected documents, images, videos, and other content that can be accessed through the use of a web browser and a network connection.",
+            "example": "The World Wide Web allows you to access websites, such as www.google.com or www.wikipedia.org, by entering their URLs into a web browser, such as Google Chrome or Mozilla Firefox."
+        }
+    },
+    {
+        "Zero Trust": {
+            "definition": "A security concept that assumes all networks, devices, and users are compromised and requires all access to resources and data to be authenticated and authorized, regardless of the user's location or device, and verifies every request for access before granting it, to prevent lateral movement in the event of a breach.",
+            "example": "A company implementing a Zero Trust model would require employees to re-authenticate each time they access a new network or device, even if they are already logged in, to ensure that the access is legitimate and not compromised."
+        }
+    },
+    {
+        "Zip File": {
+            "definition": "A compressed archive file that contains one or more files or directories, typically using the ZIP file format (.zip extension).",
+            "example": "A project manager may save all the files for a project in a single Zip file, making it easy to distribute and share the files with team members."
+        }
+    },
+    {
+        "Agile": {
+            "definition": "A project management approach that prioritizes flexibility, collaboration, and continuous improvement, emphasizing iterative and incremental deliveries of working software or services.",
+            "example": "In an agile development process, teams work in short iterations, called sprints, to deliver a working product to stakeholders, who provide feedback and new requirements, and the team adapts to these changes quickly."
+        }
+    },
+    {
+        "Artificial Intelligence": {
+            "definition": "The simulation of human intelligence in machines that are programmed to think and learn like humans, but are not human. AI systems can perform tasks that typically require human intelligence, such as visual perception, speech recognition, language translation, and decision-making.",
+            "example": "A virtual assistant like Siri or Alexa is an example of an artificially intelligent system, as it can understand voice commands, process natural language, and respond accordingly."
+        }
+    },
+    {
+        "Big O Notation": {
+            "definition": "Big O notation is a mathematical notation that describes the complexity or time efficiency of an algorithm. It is used to classify algorithms according to how their run time or space requirements grow as the input size grows.",
+            "example": "For example, if an algorithm has a time complexity of O(n), it means that the time it takes to complete the algorithm increases linearly with the size of the input, where n is the size of the input."
+        }
+    },
+    {
+        "Bitrate": {
+            "definition": "A measure of the rate at which data is transmitted or processed, typically measured in bits per second (bps) or kilobits per second (kbps). It is used to characterize the speed and quality of digital data streams, such as audio or video files.",
+            "example": "For example, a bitrate of 128 kbps for an MP3 audio file indicates that it is transmitting 128,000 bits of data per second."
+        }
+    },
+    {
+        "Blockchain": {
+            "definition": "A decentralized, distributed digital ledger technology that enables secure, transparent, and tamper-proof transactions and smart contracts, allowing for a wide range of applications beyond traditional financial transactions.",
+            "example": "Example: Using blockchain technology to create a secure and transparent voting system, or to track the origin and ownership of digital assets such as art or collectibles."
+        }
+    },
+    {
+        "Bytecode": {
+            "definition": "Intermediate-level programming language code that is generated by a compiler or interpreter and is executed by a virtual machine (VM) or an interpreter. Bytecode is platform-independent and can be executed on any platform that supports the VM or interpreter, eliminating the need for recompilation.",
+            "example": "For example, Java's Java Virtual Machine (JVM) executes Java bytecode (.class files), while the .NET Common Language Runtime (CLR) executes Microsoft's Common Intermediate Language (CIL) bytecode (.dll or .exe files)."
+        }
+    },
+    {
+        "Canonical URL": {
+            "definition": "The preferred, standardized URL for a webpage or resource, intended to be uniform and consistent across all versions and variations of a web page, including different protocols, domain names, and parameters. This is used to avoid duplicate content issues and ensure search engines index the correct version of a page.",
+            "example": "https://www.example.com/about/team (vs. https://example.com/about/team, http://www.example.com/about/team, etc.)"
+        }
+    },
+    {
+        "CI/CD": {
+            "definition": "A set of practices and tools that aims to improve the speed and reliability of software development and delivery by automating the processes of continuous integration (CI) and continuous delivery (CD).",
+            "example": "A CI/CD pipeline might involve automatic testing, building, and deployment of code changes to a production environment, allowing developers to quickly and reliably deliver new features and fixes to users."
+        }
+    },
+    {
+        "Cloud Infrastructure": {
+            "definition": "A cloud infrastructure refers to the underlying technology and hardware components that make up a cloud computing system, including servers, storage, networking devices, and other equipment. It is the foundation upon which cloud applications, services, and data are built and delivered.",
+            "example": "Examples of cloud infrastructure include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and VMware vCloud."
+        }
+    },
+    {
+        "Container Orchestration": {
+            "definition": "The process of automating the management and coordination of multiple containers, which are lightweight and portable, running in a cluster of nodes, typically in a cloud or on-premises environment, to ensure scalability, reliability, and high availability.",
+            "example": "Example of container orchestration tools: Kubernetes, Docker Swarm, Red Hat OpenShift, Apache Mesos, etcd."
+        }
+    },
+    {
+        "Data Encryption": {
+            "definition": "The process of converting plaintext data into unreadable ciphertext to protect it from unauthorized access. This is typically done using an encryption algorithm and a secret key.",
+            "example": "For example, when you send a credit card number over the internet, it is encrypted to prevent unauthorized access to the sensitive information."
+        }
+    },
+    {
+        "Data Governance": {
+            "definition": "The policies, procedures, and standards used to manage, monitor, and control the availability, usability, integrity, and security of an organization's data assets, ensuring they are consistent, reliable, and compliant with regulations and policies.",
+            "example": "A financial institution sets a data governance framework that ensures all financial transactions are accurately recorded, secure, and compliant with industry regulations, preventing data breaches and ensuring transparency and trust in the institution's financial reporting."
+        }
+    },
+    {
+        "Data Lakehouse": {
+            "definition": "A Data Lakehouse is a modern data storage and processing architecture that combines the capabilities of a Data Lake and a Data Warehouse. It allows for storing and processing large amounts of structured and semi-structured data, providing a single location for all data, and enabling data scientists, analysts, and engineers to interact with data in different ways, such as querying, processing, and analytics.",
+            "example": "For instance, a company may use a Data Lakehouse to store customer transaction data, product information, and marketing data, and then use this data to analyze customer behavior, identify trends, and personalize marketing campaigns."
+        }
+    },
+    {
+        "Data Loss Prevention": {
+            "definition": "The processes, technologies, and policies used to identify, monitor, and block unauthorized or unintended data breaches or data exfiltration, with the aim of preventing the loss, misuse, or unauthorized disclosure of confidential or sensitive information.",
+            "example": "A company uses a Data Loss Prevention system to monitor its employees' email and file transfer activities, identifying and blocking any attempts to send sensitive customer data to personal email accounts or external third-party servers."
+        }
+    },
+    {
+        "Data Privacy": {
+            "definition": "The practice of protecting personal and sensitive information from unauthorized access, use, disclosure, or manipulation, as well as ensuring the data subject's ability to control and make choices regarding the use of their personal data.",
+            "example": "Data privacy regulations, such as the General Data Protection Regulation (GDPR) in the European Union, require companies to obtain explicit consent from individuals before collecting and processing their personal data."
+        }
+    },
+    {
+        "Data Redundancy": {
+            "definition": "Data redundancy refers to the duplication of data storage or transmission to ensure that the same data is stored or transmitted multiple times. This is done to provide an additional copy of the data, which can be used to recover or repair the data in case of data loss, corruption, or errors during transmission.",
+            "example": "For instance, consider a database that stores customer information. To ensure data integrity, the database can store a copy of the data on a separate server or storage device, which can be used as a backup in case the primary database becomes unavailable."
+        }
+    },
+    {
+        "Database Sharding": {
+            "definition": "Database sharding is a technique used to distribute large databases across multiple servers, breaking them down into smaller, independent pieces called shards. Each shard contains a portion of the entire database and is responsible for storing a unique part of the data.",
+            "example": "For example, a social media platform might shard its users' data across multiple servers, with each server containing a subset of users' data. This allows for faster query times and more efficient use of resources, as each shard can be processed independently."
+        }
+    },
+    {
+        "Deep Reinforcement Learning": {
+            "definition": "A subfield of reinforcement learning that combines the use of deep learning techniques with the basic mechanisms of reinforcement learning, allowing agents to learn complex behaviors and decision-making policies in environments that are partially or fully observable.",
+            "example": "In a robotics application, a deep reinforcement learning algorithm can be used to train a robot to perform complex tasks such as assembly, grasping, or manipulation, using a combination of visual inputs, sensors, and actuators to learn and adapt to new situations."
+        }
+    },
+    {
+        "DesignPattern": {
+            "definition": "A design pattern is a reusable solution to a specific problem that arises in the field of software design, which can be used to improve the flexibility and maintainability of a software system. It is a general, reusable solution to a common problem that can be applied in multiple contexts.",
+            "example": "For example, the Observer pattern is a design pattern that allows you to define a one-to-many dependency between objects so that when one object changes, all its dependents are notified and updated accordingly."
+        }
+    },
+    {
+        "Distributed Ledger": {
+            "definition": "A distributed ledger is a type of database or record-keeping system that is replicated across multiple locations and maintained by a network of computers. It is designed to be decentralized, secure, and transparent, allowing multiple parties to agree on the state of the ledger without relying on a single central authority.",
+            "example": "Examples of distributed ledgers include blockchain technology, such as Bitcoin and Ethereum, which are used to record transactions and manage digital currencies, and distributed ledger systems, such as Corda and Hyperledger Fabric, which are used to record and manage supply chain data, property ownership, and other types of data."
+        }
+    },
+    {
+        "Domain Name System (DNS)": {
+            "definition": "A hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet, translated into a numerical IP address",
+            "example": "When you type google.com into your web browser, the Domain Name System (DNS) translates the URL into the IP address 216.58.194.174, allowing your computer to communicate with the Google server"
+        }
+    },
+    {
+        "Edge Computing": {
+            "definition": "The processing and analysis of data at the edge of a network, where data is generated, collected, and processed by devices and gateways before being sent to the cloud or a central location for further analysis or storage.",
+            "example": "For instance, in a smart city, edge computing can be used to process and analyze data from sensors monitoring traffic patterns, weather, and public safety, allowing for real-time decision-making and response to emergencies."
+        }
+    },
+    {
+        "Elasticity": {
+            "definition": "The measure of how much a material or structure stretches or deforms in response to an applied force or load.",
+            "example": "For example, the elasticity of a rubber band allows it to stretch when you pull it, but then return to its original shape when the force is removed."
+        }
+    },
+    [
+        {
+            "word": "Event-Driven Architecture",
+            "definition": "A software architecture pattern that enables loosely coupled systems to communicate asynchronously through a series of events, allowing for greater scalability, fault tolerance, and flexibility.",
+            "example": "In an event-driven architecture, a payment processing system sends an event to a logging system when a transaction is completed, which triggers a log entry to be created, demonstrating the decoupling between the systems."
+        }
+    ],
+    {
+        "Feature Flagging": {
+            "definition": "The process of enabling or disabling specific parts of an application's code or functionality on a per-environment or per-user basis, allowing for flexible and controlled updates, experimentation, and testing.",
+            "example": "Example: A company uses feature flagging to roll out a new feature to a subset of users on the west coast before deploying it to the entire user base."
+        }
+    },
+    {
+        "Function as a Service (FaaS)": {
+            "definition": "A cloud computing service model in which a customer provisioned and managed infrastructure and platform is abstracted away by the provider, allowing applications to be deployed and run without worrying about the underlying infrastructure. In the context of serverless computing, FaaS is a type of cloud service that allows developers to run small code snippets or applications without provisioning or managing servers or instances.",
+            "example": "For example, when using a FaaS platform, a developer can write and deploy a serverless function that responds to API requests without worrying about provisioning servers or scaling instances. The FaaS platform manages the underlying infrastructure, allowing the developer to focus on writing code and scaling the function based on demand."
+        }
+    },
+    {
+        "Fuzzy": {
+            "definition": "A type of logic that deals with uncertainty and imprecision in real-world systems, where concepts and parameters are described using fuzzy sets and membership functions.",
+            "example": "For instance, a thermostat can use fuzzy logic to determine the perfect temperature for a room based on the room's size, insulation, and human comfort, rather than simply relying on a fixed temperature setpoint."
+        }
+    },
+    {
+        "Graph Theory": {
+            "definition": "The branch of mathematics that studies the structure of graphs, which are collections of nodes (vertices) connected by edges. Graph theory has applications in many fields, including computer science, electrical engineering, and social network analysis.",
+            "example": "For example, a graph can represent a social network, where each node is a person and each edge represents a friendship. A graph theory algorithm can be used to find the shortest path between two people, or to identify clusters of friends."
+        }
+    },
+    {
+        "Hyperparameter": {
+            "definition": "A hyperparameter is a parameter of a model or an algorithm that is set before the training process begins, and is not learned during training. Hyperparameters control the behavior of the model, such as the optimization algorithm, learning rate, number of hidden layers, and more. They are typically set using domain knowledge, experimentation, or cross-validation.",
+            "example": "For example, in a neural network, the number of hidden layers and the number of neurons in each layer are hyperparameters. A machine learning engineer might set the number of hidden layers to 3 and the number of neurons in each layer to 256."
+        }
+    },
+    {
+        "IncrementalBackup": {
+            "definition": "An incremental backup is a type of backup that stores only the changes made to files or data since the last full or incremental backup was performed. In other words, it captures only the new or modified data, reducing the amount of storage required and the time it takes to back up.",
+            "example": "For example, if a user makes changes to a document on a Monday, an incremental backup performed on Tuesday would only store the changes made between Monday and Tuesday, not the entire document. This allows for efficient and continuous backup of data without storing redundant information."
+        }
+    },
+    {
+        "Incremental Search": {
+            "definition": "A user interface feature that provides a means for a user to search for a term or phrase by typing a few characters and gets results in real-time, updating as the user continues to type.",
+            "example": "Many web browsers and search engines provide incremental search functionality, where the user can type a few letters and see a list of suggested results or auto-complete the search query as they type."
+        }
+    },
+    {
+        "Information Retrieval": {
+            "definition": "The process of obtaining relevant data or information from a large collection of data, usually through the use of algorithms, indexing, and querying techniques.",
+            "example": "For instance, when searching for a specific topic on a search engine, information retrieval techniques are used to retrieve relevant web pages, sorting them by relevance, ranking, or other criteria."
+        }
+    },
+    {
+        "Intent-Based Networking": {
+            "definition": "A networking architecture that enables network engineers to specify their intent for network behavior, and allows the network infrastructure to automatically provision, configure, and manage the underlying network devices to meet that intent.",
+            "example": "For example, an organization may intend to ensure high availability and redundancy in their network infrastructure. An intent-based networking solution would allow the organization to specify this intent, and the network infrastructure would automatically configure the required network devices and connections to meet this intent."
+        }
+    },
+    {
+        "Intelligent Automation": {
+            "definition": "The deployment of automated software systems that use artificial intelligence (AI) and machine learning (ML) algorithms to perform repetitive, routine, or decision-making tasks, typically in industries such as manufacturing, finance, and healthcare.",
+            "example": "A company uses intelligent automation to automate its accounting and payroll processes, allowing it to reduce errors and increase efficiency by 30%."
+        }
+    },
+    {
+        "Keycloak": {
+            "definition": "Keycloak is an open-source identity and authentication server focused on modern applications and services. It provides a scalable, secure, and customizable solution for user authentication, authorization, and single sign-on (SSO) across multiple applications and devices.",
+            "example": "Example: Keycloak can be used to provide secure authentication to a company's internal applications, allowing employees to access their accounts using a single set of login credentials, while also providing advanced features such as multi-factor authentication and role-based access control."
+        }
+    },
+    {
+        "LatencySensitiveNetwork": {
+            "definition": "A Latency Sensitive Network (LSN) is a type of computer network that requires low latency, packet delay, and/or high-throughput transmission. These networks typically involve real-time applications such as video conferencing, online gaming, and audio/video streaming where delayed or lost packets can significantly impact the quality of service.",
+            "example": "Examples of LSNs include gaming networks, video streaming services, and financial trading platforms that require near-instant communication and low latency to ensure seamless and real-time interactions."
+        }
+    },
+    {
+        "load_balancing": {
+            "definition": "The process of distributing network or application traffic across multiple servers or computers to improve responsiveness, reliability, and scalability. Load balancing enables multiple servers to work together to handle a large volume of incoming traffic, by distributing the workload evenly among them, in order to prevent any single server from becoming overwhelmed and slowing down the system.",
+            "example": "Example: Imagine an e-commerce website receiving a large volume of simultaneous orders on a holiday shopping weekend. A load balancing solution would distribute the incoming traffic across multiple servers, ensuring that no single server becomes overwhelmed and that the website remains responsive and able to handle the increased demand."
+        }
+    },
+    {
+        "Machine Learning Operations": {
+            "definition": "Machine Learning Operations (MLOps) refers to the set of practices and tools used to manage and streamline the lifecycle of machine learning (ML) models, from development to deployment and maintenance. It involves the integration of Machine Learning, DevOps, and Data Science to ensure the efficient and reliable operation of AI systems.",
+            "example": "Example: A company uses MLOps to monitor the performance of its natural language processing model, automate its deployment to production, and retrain the model on new data to improve its accuracy."
+        }
+    },
+    {
+        "Micro-frontend": {
+            "definition": "A micro-frontend is a small, independent, and reusable frontend application that is designed to handle a specific portion of a larger, more complex application. It is typically a self-contained piece of code that communicates with other micro-frontends through APIs or event buses, allowing for the creation of a cohesive user interface.",
+            "example": "For example, a micro-frontend might be responsible for handling a specific feature of an e-commerce site, such as search functionality or product recommendations, while another micro-frontend handles the main product catalog. By breaking down the application into smaller, independent modules, developers can develop, test, and deploy each micro-frontend separately, reducing overall complexity and improving scalability."
+        }
+    },
+    {
+        "Microkernel": {
+            "definition": "A microkernel is a type of operating system architecture that separates the operating system's functionality into two main parts: a small, minimalistic core called the microkernel, and a collection of server processes that provide additional functionality.",
+            "example": "In a microkernel architecture, the microkernel manages memory allocation, process scheduling, and inter-process communication, while server processes such as a file system, network stack, and device drivers provide specific services to the applications running on the system."
+        }
+    },
+    {
+        "Model-View-ViewModel": {
+            "definition": "A software architectural pattern used in software development that separates an application's GUI (Graphical User Interface) presentation, its state data, and its business logic.",
+            "example": "In a MVVM application, the model represents the data and business logic, the view represents the user interface, and the view model acts as an intermediary between the model and the view, updating the view's state and notifying the model of changes to the state."
+        }
+    },
+    {
+        "Network Function Virtualization": {
+            "definition": "Network Function Virtualization (NFV) is a technology that virtualizes network functions, allowing them to be deployed as software-based virtual network functions (VNFs) running on standard servers or other network devices.",
+            "example": "For example, a virtualized firewall can be deployed as a VNF on a cloud computing platform, allowing it to be easily scaled, moved, or updated without requiring specialized hardware."
+        }
+    },
+    {
+        "NoSQL": {
+            "definition": "A NoSQL database is a type of database that does not use the structured query language (SQL) to manage and store data. Instead, it uses alternative data models and query languages, such as key-value, document, or graph databases, to store and retrieve data.",
+            "example": "Examples of NoSQL databases include MongoDB, Cassandra, and Redis, which are used in a variety of applications, such as real-time analytics, big data processing, and content management systems."
+        }
+    },
+    {
+        "OAuth 2.0": {
+            "definition": "OAuth 2.0 is an authorization standard that allows clients to access resources on behalf of a resource owner (user), by delegating access to a server using a grant flow. It is designed to simplify and improve the security of web application authentication and authorization. OAuth 2.0 relies on a series of requests and responses between the client, server, and resource owner to authenticate and authorize access to resources.",
+            "example": "For example, when a user wants to share their calendar with an app, the app requests permission to access the calendar. The user's browser redirects to the authorization server, where they are prompted to approve or deny the request. If approved, the authorization server issues an access token to the app, which can then use this token to access the user's calendar on behalf of the user."
+        }
+    },
+    {
+        "OpenStack": {
+            "definition": "OpenStack is an open-source cloud operating system that manages large networks of virtual servers and provides a platform for building public and private clouds through the use of clustered computing, grid computing and utility computing.",
+            "example": "Example: OpenStack is used by companies such as Netflix, Rackspace, and Intel to build their own cloud infrastructure and provide services to their customers."
+        }
+    },
+    {
+        "Orchestration": {
+            "definition": "The automation of manual processes or tasks, typically involving the coordination of multiple systems, services, and/or applications, to achieve a desired outcome or workflow.",
+            "example": "In a cloud-based infrastructure, orchestration refers to the process of automatically provisioning and managing virtual machines, networks, and storage resources to meet the demands of a running application, without requiring manual intervention."
+        }
+    },
+    {
+        "Parallel Computing": {
+            "definition": "'Parallel Computing' refers to the practice of executing multiple tasks or processes concurrently, in order to improve the efficiency and speed of computations on a computer or a network. This is achieved by breaking down a complex task into smaller sub-tasks, which are then executed simultaneously, allowing the processor to work on multiple tasks at the same time.",
+            "example": "Example: A weather forecasting system that uses parallel computing to process large amounts of weather data from multiple sources, allowing it to provide more accurate and up-to-date forecasts in a shorter amount of time."
+        }
+    },
+    {
+        "Peer-to-Peer": {
+            "definition": "A decentralized computing architecture in which users or nodes act as both clients and servers, enabling direct communication and data transfer between them without the need for a central authority or intermediary.",
+            "example": "In a P2P network, a user can share files with another user directly, without relying on a centralized server or cloud storage service. For example, a torrent client allows users to download files by connecting directly to other users who are seeding the same files."
+        }
+    },
+    {
+        "Platform Engineering": {
+            "definition": "The practice of building, managing, and maintaining a set of reusable, standardized, and scalable platform components and services that enable the rapid deployment and development of applications across the enterprise. Platform engineers focus on creating a robust and secure foundation for applications, leveraging cloud, containerization, and DevOps practices to improve collaboration, efficiency, and innovation.",
+            "example": "Example: A company decides to implement a platform engineering approach to unify AWS, Azure, and GCP infrastructure management across multiple lines of business. This enables developers and operations teams to deploy applications faster, with fewer errors, and at a lower cost, while ensuring consistency, security, and scalability."
+        }
+    },
+    {
+        "Point of Sale": {
+            "definition": "A physical or digital system used by merchants to process transactions, accept payments, and track sales data at a retail store or other location where goods and services are sold.",
+            "example": "A cash register in a physical store or a mobile app used to process transactions at a restaurant table."
+        }
+    },
+    {
+        "Predictive Analytics": {
+            "definition": "The use of statistical models, algorithms, and machine learning techniques to analyze existing data and forecast likely future outcomes, patterns, or trends. It involves using data mining and data visualization techniques to identify relationships and anomalies, and to develop models that can make predictions about unknown future events or behaviors.",
+            "example": "For example, a company might use predictive analytics to forecast customer churn, identifying which customers are likely to leave the company and targeting them with retention offers to reduce the likelihood of churn."
+        }
+    },
+    {
+        "privateCloud": {
+            "definition": "A private cloud is a cloud computing environment that is provisioned and managed within an organization's premises or a third-party data center, for an exclusive use by that organization. It is neither open nor shared, and the organization has complete control over the infrastructure, resources, and security.",
+            "example": "A company uses a private cloud to host its internal applications and data, providing a secure and scalable environment for its employees to access and collaborate on company resources."
+        }
+    },
+    {
+        "Quantum": {
+            "definition": "A prefix meaning 'how many', referring to the infinitely small units of energy or matter that make up the physical world. In the context of quantum computing, it refers to the fundamental nature of energy and matter at the atomic and subatomic level.",
+            "example": "Quantum mechanics is a branch of physics that studies the behavior of matter and energy at the smallest scales."
+        },
+        "Computing": {
+            "definition": "The processing, storage, and communication of information using electronic devices.",
+            "example": "Computing refers to the task of doing calculations, data processing, and storage using computers."
+        },
+        "Quantum Computing": {
+            "definition": "A type of computing that uses the principles of quantum mechanics to perform calculations and operations on data. This involves the use of quantum bits (qubits) to process and store information in a fundamentally new way, allowing for faster and more efficient calculations.",
+            "example": "Quantum computing has the potential to solve complex problems that are currently unsolvable using classical computing, such as simulating the behavior of molecules and solving complex optimization problems."
+        }
+    },
+    {
+        "Real-Time Data": {
+            "definition": "Data that is transmitted and processed immediately, without delay or buffering, often used to provide instantaneous feedback, analysis, or reaction to events or changes.",
+            "example": "Example of real-time data could be stock market prices updating in real-time as the stock market is trading, or a navigation app showing the exact location of a person in real-time as they move."
+        }
+    },
+    {
+        "Redundancy": {
+            "definition": "The duplication of components, data, or processes, often to ensure continued operation in the event of failure or to improve reliability.",
+            "example": "A company uses redundancy in their server architecture by maintaining duplicate servers that can take over operations if one server fails."
+        }
+    },
+    {
+        "RPA": {
+            "definition": "Robotic Process Automation (RPA) is a technology that enables organizations to automate repetitive and mundane tasks by using software robots that can interact with applications, systems, and data just like humans do.",
+            "example": "An RPA software robot can be programmed to automatically fill out forms, extract data, and perform tasks, freeing up employees to focus on higher-value work."
+        }
+    },
+    {
+        "Secure Sockets Layer": {
+            "definition": "A cryptographic protocol that provides secure communication between a web browser and a web server, enabling secure transactions and protecting data from interception or tampering. SSL uses public key cryptography to establish a secure connection and encrypt the data being transmitted.",
+            "example": "When you enter the URL https://www.example.com in your browser, the SSL protocol is used to establish a secure connection with the web server, encrypting the data you send and receive to ensure the authenticity and confidentiality of the communication."
+        }
+    },
+    {
+        "Serverless Computing": {
+            "definition": "A cloud computing model where the cloud provider manages the infrastructure that supports your application, and you only need to write code for your application, without worrying about the underlying server or instance",
+            "example": "For example, in a serverless architecture, a user uploads a photo to a social media platform, and the cloud provider automatically scales the necessary resources to process the image, without the user needing to manage virtual machines or servers"
+        }
+    },
+    {
+        "Service-Oriented Architecture": {
+            "definition": "A software architecture that structures an application as a collection of services that are designed to be loosely coupled and to provide a standardized interface for communication.",
+            "example": "In a SOA, services are typically designed to provide specific business capabilities, and are implemented independently. For example, an e-commerce system might have services for order management, payment processing, and inventory management. Each service would have its own interface and would interact with other services through standardized protocols such as REST or SOAP."
+        }
+    },
+    {
+        "Single Page Application (SPA)": {
+            "definition": "A web application that loads a single HTML page and dynamically updates the user interface without requiring full page reloads.",
+            "example": "E.g. Google Maps loads a single HTML page and updates the map view dynamically as the user interacts with it."
+        }
+    },
+    {
+        "SiteReliabilityEngineering": {
+            "definition": "Site Reliability Engineering (SRE) is an engineering discipline that combines software engineering and systems engineering to build large-scale systems that are resilient, scalable, and highly available. It is concerned with the development and operation of production software systems that are maintainable, efficient, and effective.",
+            "example": "For example, a team of SREs might be responsible for designing and implementing a cloud-based e-commerce platform that can handle large volumes of traffic, is highly available, and scales horizontally to meet changing demand."
+        }
+    },
+    {
+        "Smart": {
+            "definition": "Type of self-executing program that automatically enforces the terms of a contract between two or more parties when specific conditions are met.",
+            "example": "A smart contract can automatically transfer ownership of digital assets to a buyer once a payment is confirmed."
+        },
+        "Contracts": {
+            "definition": "Digitally-facilitated agreements that automate the execution, payment, and enforcement of contractual obligations between parties.",
+            "example": "A company uses a smart contract to automate the process of processing employee bonuses, ensuring timely and accurate payouts."
+        }
+    },
+    {
+        "Software as a Service": {
+            "definition": "A software delivery model in which a third-party provider hosts an application and makes it available to customers over the internet, typically on a subscription basis. In this model, the provider is responsible for maintaining and updating the software, freeing up the customer's resources to focus on their core business.",
+            "example": "Example of SaaS: Salesforce provides customer relationship management (CRM) software as a service to customers, eliminating the need for customers to install, configure, and maintain the software on their own servers."
+        }
+    },
+    {
+        "Software": {
+            "definition": "A type of programming language that can be executed on a computer, usually written in a human-readable format.",
+            "example": "Python, Java, C++"
+        },
+        "Defined": {
+            "definition": "Precisely stated or explained; clearly formulated.",
+            "example": "The company defined its mission statement as 'to provide high-quality products'."
+        },
+        "Networking": {
+            "definition": "The process or system of interconnecting devices, computers, and other networks.",
+            "example": "The internet is a global network of interconnected computers."
+        },
+        "Software Defined Networking": {
+            "definition": "A networking architecture that separates the control plane, which contains the networking logic, from the data plane, which contains the forwarding logic. This allows network administrators to control and manage network traffic patterns using software, rather than relying on proprietary hardware-based routing and switching."
+        }
+    },
+    {
+        "Soldering": {
+            "definition": "The act of joining two metal pieces, typically made of copper or gold, by melting a filler metal (solder) with a lower melting point than the base metals, and allowing it to form a strong and durable bond.",
+            "example": "Soldering is commonly used in electronics to connect components together, such as wires, connectors, and integrated circuits, for example, soldering a copper wire to a printed circuit board (PCB)."
+        }
+    },
+    {
+        "StaticSiteGenerator": {
+            "definition": "A Static Site Generator (SSG) is a tool that takes input data and/or markup language files, and generates a static website or application made up of HTML pages, CSS files, and possibly JavaScript files, without the use of a web server or database.",
+            "example": "Example uses of SSGs include Next.js, Gatsby, Hugo, and Jekyll. These tools can be used to generate a website by compiling and processing Markdown files, configuring layouts and templates, and shipping the final output to a hosting platform."
+        }
+    },
+    {
+        "SyntheticMonitoring": {
+            "definition": "The process of simulating real user interactions with a software application or system to detect issues, measure performance, and guarantee quality, through the use of artificial agents or scripts that mimic real user behaviors, allowing for proactive identification and resolution of issues before they affect real users.",
+            "example": "For instance, a company uses synthetic monitoring to simulate a purchase transaction on their e-commerce website, checking for any errors or delays in the payment processing, to ensure a seamless user experience."
+        }
+    },
+    {
+        "Test-Driven Development": {
+            "definition": "An iterative software development process that relies on the repetitive cycle of writing automated tests before writing the actual code. This approach ensures that every piece of code has a corresponding test to ensure its correctness and prevent bugs from sneaking into the software.",
+            "example": "For example, a developer would write a test for a specific functionality, then attempt to write the minimum amount of code necessary to pass that test, and repeat the process until all the desired features are implemented."
+        }
+    },
+    {
+        "Threat Intelligence": {
+            "definition": "The process of gathering, analyzing, and disseminating information about potential security threats, such as malware, cyber attacks, and vulnerabilities, in order to proactively defend against them.",
+            "example": "A cybersecurity team uses threat intelligence to receive real-time updates on known malware strains, allowing them to configure their firewalls and intrusion detection systems to block attacks before they can occur."
+        }
+    },
+    {
+        "Tokenomics": {
+            "definition": "The study and management of the use and distribution of tokens or coins in a blockchain-based system, including their scarcity, distribution, and potential for governance and decision-making.",
+            "example": "A decentralized autonomous organization (DAO) uses tokenomics to determine how tokens are distributed and used to make decisions, ensuring that stakeholders have a say in the direction of the organization."
+        }
+    },
+    {
+        "UI/UX Design": {
+            "definition": "The process of creating user interfaces (UI) and user experiences (UX) that are both aesthetically pleasing and user-friendly, through the combination of visual design, interaction design, and usability testing.",
+            "example": "A UI/UX designer creates a mobile app that is intuitive and easy to navigate, with a visually appealing design and a seamless user experience, allowing users to quickly and easily accomplish their goals."
+        }
+    },
+    {
+        "User-Centered Design": {
+            "definition": "A design approach that focuses on understanding the needs, behaviors, and motivations of end-users to create products, systems, and services that are intuitive, easy to use, and meet their needs and expectations. This approach involves empathizing with users, understanding their perspectives, and designing solutions that are user-friendly and accessible.",
+            "example": "A software development company uses user-centered design to create a mobile app for a banking service. The company conducts user research, gathers feedback, and iterates on the design to ensure that the app meets the needs and preferences of its target audience."
+        }
+    },
+    {
+        "Virtual Private Cloud": {
+            "definition": "A virtualized private cloud infrastructure that is provisioned and managed by a cloud provider, allowing users to build and deploy virtual networks and resources in a shared environment, but with isolation and security comparable to a physical private cloud.",
+            "example": "Amazon Web Services (AWS) VPC is an example of a Virtual Private Cloud service that allows users to create a virtual network in its cloud infrastructure, with its own set of IP addresses, subnets, and security groups."
+        }
+    },
+    {
+        "Virtual Reality": {
+            "definition": "A computer-generated simulation of a three-dimensional environment that can be experienced and interacted with in a seemingly real or physical way. VR technology uses a combination of hardware and software to create an immersive and interactive experience for the user.",
+            "example": "A user wearing a VR headset can explore a virtual museum and interact with virtual exhibits, or play virtual reality games that simulate a fantasy world."
+        }
+    },
+    {
+        "Web Development Framework": {
+            "definition": "A web development framework is a set of pre-defined tools, libraries, and components used to build dynamic web applications. It provides a structured approach to web development, offering reusable code, modular design, and standardized development practices. A framework typically includes tools for building the front-end (client-side) and back-end (server-side) of a web application, allowing developers to create fast, scalable, and maintainable websites and web applications.",
+            "example": "Examples of popular web development frameworks include Ruby on Rails, Django (Python), Spring (Java), and Laravel (PHP). These frameworks provide a foundation for building robust web applications, streamlining the development process, and accelerating time-to-market."
+        }
+    },
+    {
+        "webhook": {
+            "definition": "An HTTP callback function that is called when a specific event occurs, such as a change to a database or an incoming HTTP request. Webhooks allow different applications to communicate with each other by sending and receiving HTTP requests.",
+            "example": "Example: A user signs up for a newsletter on a website, and the website sends a webhook to a third-party service to add the user to a mailing list."
+        }
+    },
+    {
+        "Wireless Fidelity": {
+            "definition": "A technology for wireless networking that allows devices to connect to the internet or communicate with each other without the use of cables or wires. Wi-Fi uses radio waves to transmit data between devices, and is commonly used to connect devices to the internet, share files, and communicate with other devices within a local network.",
+            "example": "For example, Wi-Fi is commonly used to connect laptops, smart phones, and other devices to the internet at home, in cafes, or in public hotspots."
+        }
+    },
+    {
+        "Xamarin": {
+            "definition": "A cross-platform development framework created by Microsoft, allowing developers to share code between iOS, Android, and Windows platforms. It uses C# and the .NET framework to build mobile apps, providing a native user experience on each platform.",
+            "example": "A Xamarin app allows developers to write the majority of the code in C# and reuse it across multiple platforms, such as iOS and Android, without the need for rewriting or recompiling."
+        }
+    },
+    {
+        "Zero-Knowledge": {
+            "definition": "A type of cryptographic proof that allows one party to demonstrate possession of certain information to another party without revealing the information itself.",
+            "example": "Example: A user proves they have a valid ID card without revealing the ID number or photo, without the user's knowledge or information being compromised."
+        }
+=======
 {
     "api": {
         "definition": "An Application Programming Interface (API) is a set of defined rules that enables different applications, services, or systems to communicate with each other, integrating their functions. It allows data exchange, request formatting, and response handling between systems, while hiding the underlying implementation details.",
@@ -80,3 +1516,4 @@
         "example": "For example, when you send an email with sensitive information, the encryption process converts the plaintext email contents into a ciphertext that only the intended recipient, with the correct decryption key, can read."
     }
 }
+]
