@@ -2,6 +2,8 @@ from json import load, dump
 from generate import store
 from pprint import pprint
 
+common = "../data/common.json"
+
 def user_input():
     user_answer = input("search:")
     return user_answer
@@ -9,15 +11,12 @@ def user_input():
 def search():
     user_term = user_input()
 
-    with open("../data/common.json", "r") as common_terms:
-        terms = load(common_terms)
-
-    for term in terms:
-        pprint(term)
-        if user_term == term["term"]:
-            print(term["definition"])
-            store(term)
-            
+    with open(common) as known_terms:
+        known_terms = load(known_terms)
+        
+    for term in known_terms:
+        if user_term == term:
+            print(known_terms[term]["definition"])
+            store({term: known_terms[term]})
             
 search()
-
