@@ -1,17 +1,25 @@
-from json import dump, loads
-from models import getCompletion
 
+from models import getCompletion, Agent
 from time import sleep
+from json import dump, dumps, load
 
-def main():
-    func()
-
+cache = "../data/cache.json"
 
 def store(term):
-    with open("../data/cache.json", "a") as previous_terms:
-        dump(term, previous_terms, indent=4)
+    
+    with open(cache, "a") as previous_terms, open(cache, "r") as not_empty:    
+        try:
+            not_empty = load(not_empty)
+            
+            previous_terms.seek(0, 2)
+            previous_terms.seek(previous_terms.tell() - 1, 0)
+            previous_terms.truncate()
+            previous_terms.write(", " + dumps(term, indent=4)[1:])
+        
+        except:
+            dump(term, previous_terms, indent=4)
 
-
+                
 def func():
     entries = list()
 
@@ -46,7 +54,7 @@ def func():
         ],
 
         "08": [
-            "Server-Side Rendering (SSR)","Static Analysis","Technical Debt","Tokenization","Unit Test","User Authentication","User Authorization","Virtual Private Network (VPN)","Web API","Web Assembly (WASM)","Web Scraping","WebSocket API","Wireframe","World Wide Web (WWW)","XaaS","Zero Trust","Zip File","Agile Methodology","Artificial Intelligence (AI)","Big O Notation","Bitrate"
+            "Server-Side Rendering (SSR)","Static Analysis","Technical Debt","Tokenization","Unit Test","User Authentication","User Authorization","Virtual Private Network (VPN)","Web API","Web Assembly (WASM)","Web Scraping","WebSocket API","Wireframe","World Wide Web (WWW)","XaaS","Zero Trust","Zip previous_terms","Agile Methodology","Artificial Intelligence (AI)","Big O Notation","Bitrate"
         ],
 
         "09": [
@@ -76,9 +84,5 @@ def func():
                 failed.append(term)
         sleep(60)
     
-    with open("../data/common.json", "a") as file:
-        dump(entries, file, indent=4)
-
-
-if __name__ == "__main__":
-    main()
+    with open("../data/common.json", "a") as previous_terms:
+        dump(entries, previous_terms, indent=4)

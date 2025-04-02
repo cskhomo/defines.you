@@ -1433,5 +1433,87 @@
             "definition": "A type of cryptographic proof that allows one party to demonstrate possession of certain information to another party without revealing the information itself.",
             "example": "Example: A user proves they have a valid ID card without revealing the ID number or photo, without the user's knowledge or information being compromised."
         }
+=======
+{
+    "api": {
+        "definition": "An Application Programming Interface (API) is a set of defined rules that enables different applications, services, or systems to communicate with each other, integrating their functions. It allows data exchange, request formatting, and response handling between systems, while hiding the underlying implementation details.",
+        "example": "For example, a social media API allows developers to access and use social media data, such as posts, comments, and user information, to create new applications, like a news aggregator or a personalized content feed."
+    },
+    "agile": {
+        "definition": "A software development methodology that emphasizes flexibility and rapid response to change, typically involving iterative and incremental delivery, continuous improvement, and close collaboration between development teams and customers.",
+        "example": "Example of Agile in practice: A software development team starts by planning and prioritizing features, then iterates through sprints of 2-4 weeks, delivering a working product increment at the end of each sprint, with ongoing refinement and adaptation to changing requirements."
+    },
+    "algorithm": {
+        "definition": "A set of instructions that is used to solve a specific problem or perform a particular task, typically expressed in a step-by-step manner. An algorithm may be expressed as a formula, a flowchart, or a series of steps written in a programming language.",
+        "example": "For example, the algorithm for sorting a list of numbers might include the following steps: 1) find the smallest number in the list, 2) move it to the beginning of the list, 3) repeat steps 1 and 2 until the list is sorted."
+    },
+    "artificial intelligence": {
+        "definition": "The simulation of human intelligence in machines that are programmed to think and learn like humans, but are not human themselves. AI systems are designed to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.",
+        "example": "Ex: Siri, Alexa, Google Assistant, self-driving cars, and image recognition software are all examples of artificial intelligence."
+    },
+    "automation": {
+        "definition": "The use of technology to perform tasks automatically, typically involving the use of software and hardware to control and monitor machines and systems without human intervention.",
+        "example": "A manufacturing process can be automated by using robots to assemble and packaging products, eliminating the need for human labor."
+    },
+    "big data": {
+        "definition": "A term used to describe the large amounts of structured and unstructured data that are constantly being generated and stored in digital formats. This data can come from various sources, such as social media, IoT devices, email, and databases, and is too large and complex for traditional data processing and storage methods. Big Data is characterized by its 3Vs: Volume, Variety, and Velocity.",
+        "example": "Example of Big Data: Analyzing customer purchase behavior on a company's website and social media platforms to improve product recommendations, identify trends, and tailor marketing efforts."
+    },
+    "binary": {
+        "definition": "A binary is a sequence of bits or a series of 0s and 1s that represent information, data, or a command. In computing, binary is used to store and process information in computers, and is the basis for many programming languages and data formats.",
+        "example": "Examples of binary include the instructions written in machine code that a computer's processor executes, the data stored on a computer's hard drive or solid-state drive, and the format used to represent audio or image files."
+    },
+    "blockchain": {
+        "definition": "A decentralized, digital ledger that records transactions and data across a network of computers in a secure and transparent manner, using cryptography and peer-to-peer consensus methods.",
+        "example": "A blockchain can be used to record and track ownership of digital assets, such as cryptocurrencies like Bitcoin or Ethereum, as well as to store medical records, supply chain data, and other types of digital information."
+    },
+    "cloud computing": {
+        "definition": "Cloud Computing is a model of delivering computing services over the internet, where resources such as servers, storage, databases, software, and applications are provided as a service to users on-demand, rather than having to manage and maintain them on-premises.",
+        "example": "Example of cloud computing includes storing files in Google Drive, using Microsoft Office 365 for email and productivity software, or accessing data and applications through Amazon Web Services (AWS) or Microsoft Azure."
+    },
+    "compiler": {
+        "definition": "A compiler is a special kind of program that converts computer programs written in one language (the source language) into another language (the target language). Typically, the source language is a higher-level language, such as C or Java, and the target language is a lower-level language, such as machine code or assembly language.",
+        "example": "For example, a C compiler converts a C program into machine code that the computer's processor can execute directly."
+    },
+    "container": {
+        "definition": "A software-based system in which a set of processes or applications are encapsulated and isolated from one another, typically using operating system-level virtualization, for improved resource utilization, portability, and deployment flexibility.",
+        "example": "In a Kubernetes cluster, a container is a lightweight and portable runtime environment that includes an application and its dependencies, and can be easily scaled, deployed, and managed."
+    },
+    "continuous integration": {
+        "definition": "The practice of integrating code changes into a central repository frequently, usually through automated processes, in order to catch and fix errors early, improve quality, and reduce integration problems later in the development cycle.",
+        "example": "For example, a development team may set up a continuous integration pipeline to automatically build, test, and deploy their code changes to a production environment every time a developer checks in new code to the central repository."
+    },
+    "data science": {
+        "definition": "The study and practice of extracting insights from complex data using various computational and statistical techniques, in order to inform business decisions, solve problems, and drive innovation.",
+        "example": "Data scientists use machine learning algorithms and data visualization tools to identify patterns and trends in customer behavior, and then use this knowledge to develop targeted marketing campaigns that increase sales and revenue."
+    },
+    "data mining": {
+        "definition": "The process of automatically discovering patterns, relationships, and anomalies within large datasets to identify hidden insights and correlations, often using machine learning algorithms and statistical techniques.",
+        "example": "For example, a retailer might use data mining to analyze customer purchase history and identify patterns to personalize product recommendations, or to identify high-risk customers who are likely to default on payments."
+    },
+    "database": {
+        "definition": "A database is a collection of organized data that is stored in a way that allows for efficient retrieval and manipulation. It is a digital repository that holds data in a structured format, allowing multiple users and applications to access and update the data.",
+        "example": "For example, a customer relationship management (CRM) system uses a database to store information about customers, including their contact details, purchasing history, and communication preferences."
+    },
+    "deep learning": {
+        "definition": "A type of machine learning that involves processing data in multiple layers, where each layer is capable of learning increasingly complex representations of the input data. This allows deep learning models to learn abstract features and represent data in a more hierarchical manner.",
+        "example": "Example of a deep learning model is a convolutional neural network (CNN) used for image recognition."
+    },
+    "deployment": {
+        "definition": "The process of transferring or placing software, firmware, or other digital content into production or a live environment, often involving staging, testing, and configuration",
+        "example": "After several hours of testing, the company deployed the new software update to the production servers, making it available to customers worldwide."
+    },
+    "devops": {
+        "definition": "A set of practices that combines software development (Dev) and IT operations (Ops) to streamline the software development lifecycle, from development to deployment, and to improve collaboration between development and operations teams. It aims to reduce the time and cost of software releases, improve quality, and increase delivery speed by automating and integrating processes, reducing manual error, and enhancing feedback and collaboration.",
+        "example": "Example of DevOps in action: A team of developers writes and tests code, and then uses automated testing tools and continuous integration/continuous deployment (CI/CD) pipelines to quickly and reliably deploy the code to production, allowing users to access new features and updates faster and with lower risk."
+    },
+    "docker": {
+        "definition": "A containerization platform that allows software developers to package, ship, and run applications in containers, which are lightweight and portable, ensuring consistent and reproducible environments across different environments and platforms.",
+        "example": "For instance, Docker allows developers to create a container for a web application and deploy it on a production server, ensuring that the application runs exactly the same as it did during development, without worrying about compatibility issues or differences in environment configurations."
+    },
+    "encryption": {
+        "definition": "The process of converting plaintext data into a ciphertext that is unreadable to unauthorized individuals, typically using algorithms and keys, to provide confidentiality, integrity, and authenticity of data.",
+        "example": "For example, when you send an email with sensitive information, the encryption process converts the plaintext email contents into a ciphertext that only the intended recipient, with the correct decryption key, can read."
     }
+}
 ]
