@@ -1,6 +1,7 @@
 from json import dump, loads
-from models import Agent
+from models import getCompletion
 
+from time import sleep
 
 def main():
     func()
@@ -64,10 +65,16 @@ def func():
             "Smart Contracts","Software as a Service (SaaS)","Software Defined Networking (SDN)","Soldering","Static Site Generator (SSG)","Synthetic Monitoring","Test-Driven Development (TDD)","Threat Intelligence","Tokenomics","UI/UX Design","User-Centered Design","Virtual Private Cloud (VPC)","Virtual Reality (VR)","Web Development Framework","Webhooks","Wireless Fidelity (Wi-Fi)","Xamarin","Zero-Knowledge Proofs"
         ],        
     }
-    for term in common_terms["01"]:
-        response_data = Agent().getCompletion(term)
-        data = loads(response_data)
-        entries.append(data)
+    failed = list()
+    for collection in common_terms:
+        for term in common_terms[collection]:
+            response_data = getCompletion(term)
+            try:
+                data = loads(response_data)
+                entries.append(data)
+            except:
+                failed.append(term)
+        sleep(60)
     
     with open("../data/common.json", "a") as file:
         dump(entries, file, indent=4)
