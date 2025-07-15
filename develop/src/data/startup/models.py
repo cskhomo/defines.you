@@ -1,11 +1,8 @@
 import os 
 from dotenv import load_dotenv
-
 from groq import Groq
-
 from typing import Any
 
-# get auth
 load_dotenv()
 API_KEY = os.getenv('KEY')
 
