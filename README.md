@@ -4,8 +4,6 @@
 
 ![App Logo](design/logo_small.png "defines.you - the longo of code")
 
- by [Chris Khomo](https://github.com/cskhomo) & [Thero Thethe](https://github.com/thero-sgit)
-</div>
 
 ## Table of Contents
 
