@@ -4,6 +4,7 @@
 
 ![App Logo](design/logo_small.png "defines.you - the longo of code")
 
+</div>
 
 ## Table of Contents
 
