@@ -17,7 +17,7 @@ int main(int argc, char* argv[]){
   }
   
   if (cmdl[1].empty()){
-    cout << "print help (less)" << endl;
+    cout << "print help (missing args)" << endl;
     return 1;
   }
   
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]){
   }
   
   if (not cmdl[2].empty()) {
-    cout << "print help (more)" << endl;
+    cout << "print help (extra args)" << endl;
     return 1;
   }
   
@@ -36,7 +36,12 @@ int main(int argc, char* argv[]){
     term = cmdl[1];
   }
   
-  cout << "send request: " << term << endl;
+  cout << "\n" << term << endl;
+  for (int i =0; i < term.size(); i++){
+    cout << "-";
+  }
+  cout << "\nThe definition of the term: " << term << endl;
+  cout << "\nExample:\n a usage example of the term: " << term << "\n" << endl;
   
   return 0;
 }
