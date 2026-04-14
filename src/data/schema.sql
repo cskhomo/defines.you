@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS "terms"(
-    "id" INTEGER PRIMARY KEY,
-    "word" TEXT UNIQUE NOT NULL,
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "term" TEXT NOT NULL UNIQUE,
     "definition" TEXT NOT NULL,
     "example" TEXT NOT NULL
 );
