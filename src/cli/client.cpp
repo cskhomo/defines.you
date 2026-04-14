@@ -12,14 +12,23 @@ int main(int argc, char* argv[]){
   bool redefine = cmdl[{"r", "redefine"}];
   
   if (help){
-    cout << "print help (general)" << endl;
+    cout << "USAGE: define <term>\n\n"
+    
+         << "EXAMPLES:\n"
+         << "\u3000define 'recursion'\n"
+         << "\u3000define 'call stack'\n\n"
+         
+         << "OPTIONS:\n"
+         << "\u3000-h, --help\tShow this help message\n";
     return 1;
   }
   
   if (cmdl[1].empty()){
-    cout << "print help (missing args)" << endl;
-    return 1;
-  }
+    cout << "ERROR:\tmissing argument\n"
+         << "USAGE:\tdefine <term>\n"
+         << "HINT:\ttry define --help\n";
+  return 1;
+}
   
   string term;
   
@@ -28,20 +37,22 @@ int main(int argc, char* argv[]){
   }
   
   if (not cmdl[2].empty()) {
-    cout << "print help (extra args)" << endl;
-    return 1;
-  }
+    cout << "ERROR:\ttoo many arguments\n"
+         << "USAGE:\tdefine <term>\n"
+         << "HINT:\tadd quotation marks\n";
+  return 1;
+}
   
   if (term.empty()) {
     term = cmdl[1];
   }
   
-  cout << "\n" << term << endl;
+  cout << term << endl;
   for (int i =0; i < term.size(); i++){
     cout << "-";
   }
   cout << "\nThe definition of the term: " << term << endl;
-  cout << "\nExample:\n a usage example of the term: " << term << "\n" << endl;
+  cout << "\nExample:\n\u3000a usage example of the term: " << term << endl;
   
   return 0;
 }
