@@ -51,6 +51,7 @@ int main(int argc, char* argv[]){
   for (int i =0; i < term.size(); i++){
     cout << "-";
   }
+  
   cout << "\nThe definition of the term: " << term << endl;
   cout << "\nExample:\n\u3000a usage example of the term: " << term << endl;
   
