@@ -1,30 +1,96 @@
-# Technical Terms Vocabulary for Desktop
+# Defines
 
-## Table of Contents
+Command-line tool for retrieving programming definitions instantly.
 
-- [Summary](#summary)
-- [Analysis](#analysis)
-	- [Data Storage](#data-storage)
-	- [Online Definitions](#online-definitions)
-	- [User-Interface](#user-interface)
+Defines helps developers understand technical terms without leaving the terminal, reducing context switching and improving learning flow.
 
-## Summary
+---
 
-New developers often struggle with programming terminology, feeling lost when they encounter words like "polymorphism" or "concatenation" 
+## Overview
 
-_Defines_ offers a simple, beginner-friendly solution by providing clear and concise definitions of these terms. It serves as an easy-to-use lookup tool, helping beginners quickly understand technical jargon. Accessible anywhere, even offline, ensuring that learners can get the help they need, anytime, without getting stuck.
+Developers—especially beginners—often encounter unfamiliar terms while coding.
 
-## <div align="center">Analysis
+Switching between the terminal and a browser to look up definitions:
+- breaks focus  
+- slows down learning  
+- disrupts workflow  
 
-### Data Storage
+Defines solves this by bringing definitions directly into the CLI.
 
-The program will store a collection of commonly used technical terms on the user's local machine. These can be viewed offline, providing quick access to essential definitions. Additionally, for every term that the user has looked at in the past, the program will store that term within a long-term offline cache. This way, the user can access popular and previously viewed terms even without an internet connection.
+---
+
+## Features
+
+- Instant lookup of programming terms  
+- Offline access via local database  
+- Automatic caching of previously searched terms  
+- Fallback to online API when definitions are not available locally  
+
+---
+
+## Example Usage
+
+```bash
+$ defines polymorphism
+
+Polymorphism:
+The ability of a function or object to take multiple forms depending on context.
+
+Example:
+A function behaving differently based on input type.
+```
+
+---
+
+## How It Works
+
+### 1. Local Lookup
+- Queries a local SQLite database for fast, offline access  
+
+### 2. Cache Layer
+- Stores previously requested terms for future offline use  
+
+### 3. Remote Fallback
+- If a term is not found locally, fetches data from an external API  
+- Saves the result locally for subsequent queries  
+
+---
+
+## Architecture
+
+```
+User Input (CLI)
+        ↓
+Local Database Lookup (SQLite)
+        ↓
+Cache Miss → API Request
+        ↓
+Store Result Locally
+        ↓
+Display Definition
+```
+
+---
 
 
-### Online Definitions
+## Problem This Solves
 
-When the user searches for a term that is not stored locally, the program will connect to an external online source to retrieve the definition. This ensures that the user has access to a comprehensive dictionary of technical terms, even if the term is not part of the local collection.
+Defines reduces **context switching**, which is one of the biggest hidden costs in learning and development.
 
-### User-Interface
+Instead of:
+```
+code → confusion → browser → search → read → return
+```
 
-The program will feature a minimalist and intuitive interface, presenting a list of technical terms in alphabetical order. Users may locate specific terms by scrolling through the list or by using the search function.
+You get:
+```
+code → defines → understand → continue
+```
+
+---
+
+## Target Users
+
+- Beginner developers learning programming concepts  
+- Developers working heavily in terminal environments  
+- Anyone who prefers fast, low-friction tooling  
