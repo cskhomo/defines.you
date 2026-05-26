@@ -1,5 +1,5 @@
 import pytest
-import calculator
+from build import calculator
 
 def test_add_positive():
     assert calculator.add(2, 2) == 4
