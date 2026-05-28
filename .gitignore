@@ -3,5 +3,5 @@
 *pycache*
 *venv/*
 build/
-*vscode
+.vscode/
 Makefile
