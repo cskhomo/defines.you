@@ -1,3 +1,0 @@
-id,term,definition,example
-1,"recursion","A programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems.","To understand recursion, you must first understand recursion."
-2,"call stack","A structure in programming that keeps track of all the functions that have been called and where each function should return.","When functions call each other, the call stack keeps track of the order in which they were called."
